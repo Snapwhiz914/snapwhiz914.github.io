@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Write up: VSB"
+title:  "Write up: VSEB"
 date:   2023-08-15 08:10:25 -0400
 author: Snapwhiz914
 tags: discord website fastapi
@@ -8,17 +8,17 @@ tags: discord website fastapi
 
 # Background
 
-I was exploring discord recently and discovered they had a soundboard feature. I joined a call with some friends to test it out, and was after uploading 5 sounds I was met with an all too familiar roadblock: the paywall. So I decided to take matters into my own hands add my own spin to it.
+I was exploring discord recently and discovered they had a soundboard feature. I joined a call with some friends to test it out, and after uploading 5 sounds I was met with an all too familiar roadblock: the paywall. So I decided to take matters into my own hands add my own spin to it.
 
-# VSB (Virtual Soundboard)
+# VSEB (Virtual Sound Effect Board)
 
-VSB is a soundboard software that doesn't use the keyboard, an app or other proprietary hardware to trigger sounds. Instead, it hosts a minimalistic website with buttons to play the sounds with. Since it was made for discord, it can automatically change to Push-To-Talk mode on Discord for better sound quality over calls.
+VSEB is a sound effect board software that doesn't use the keyboard, an app or other proprietary hardware to trigger sounds. Instead, it hosts a minimalistic website with buttons to play the sounds with. Since it was made for discord, it can automatically change to Push-To-Talk mode for better sound quality over calls.
 
 ## Code overview
 
 ### The process
 
-This project started out as a single file, as I was only using one sound. In this stage I didn't use the website, I just used buttons on my keyboard that I didn't need to use for anything else. I discovered and old kindle and realized that it would be perfect to use that instead of my keyboard to play sounds with, so I split the project into multiple files and organized it into what it is now.
+This project started out as a single file, as I was only using one sound. In this stage I didn't use the website, I just used buttons on my keyboard that I didn't need to use for anything else. I discovered an old kindle and realized that it would be perfect to use that instead of my keyboard to play sounds with, so I split the project into multiple files and organized it into what it is now.
 
 ### Files
 
