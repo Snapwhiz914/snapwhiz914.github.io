@@ -14,13 +14,3 @@ Since I've only recently (as of 2024) started this blog, I have numerous project
 Dates on these posts will not correspond with the actual time of their making. If the date is relevant then I will mention it in the post.
 
 The posts list below is organized starting from most recent.
-
-# Posts
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-    <br>
-  {% endfor %}
-</ul>

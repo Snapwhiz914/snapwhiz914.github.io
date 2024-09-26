@@ -1,0 +1,28 @@
+navbar_entries:
+  - title: Post list
+    url: posts
+
+project_entries:
+  - title: server1-5
+    url: 2024/08/12/server1-5
+    desc: Homemade servers from old laptops
+
+  - title: Scout Odometry
+    url: 2024/08/12/Scout-Odometry
+    desc: Visual Odometry for the moorebot scout
+
+  - title: PN-API
+    url: 2024/08/12/PN-API
+    desc: Online anonymity, customizable and free
+    highlight: REVIVED
+
+  - title: VSB
+    url: 2024/08/12/Discord-Soundboard
+    desc: Virtual Soundboard Application
+
+footer_entries:
+  - title: Github
+    url: https://github.com/snapwhiz914
+
+  - title: Feed
+    url: feed.xml
