@@ -1,6 +1,8 @@
 navbar_entries:
+  - title: Home
+    url: /index
   - title: Post list
-    url: posts
+    url: /posts
 
 project_entries:
   - title: server1-5
@@ -16,13 +18,9 @@ project_entries:
     desc: Online anonymity, customizable and free
     highlight: REVIVED
 
-  - title: VSB
-    url: 2024/08/12/Discord-Soundboard
-    desc: Virtual Soundboard Application
-
 footer_entries:
-  - title: Github
+  - title: <i class="fa-brands fa-github"></i>
     url: https://github.com/snapwhiz914
 
-  - title: Feed
+  - title: <i class="fa-solid fa-rss"></i>
     url: feed.xml

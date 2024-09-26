@@ -7,13 +7,10 @@ layout: default
   {% include horizontal_list.html collection=site.data.home.navbar_entries %}
   <div class="dashed"></div>
 {% endif %}
-
-  <h1>{{ site.title }}</h1>
-  {% if site.theme_config.show_description == true %}
-    <p>{{ site.description }}</p>
-  {% endif %}
 </header>
 
+<div class="main">
+<div class="content">
 {{ content }}
 
 {% if site.theme_config.show_projects == true %}
@@ -36,7 +33,13 @@ layout: default
   {% include card_list.html collection=site.data.home.old_project_entries %}
 {% endif %}
 
+</div>
 
+<div class="sidebar">
+  <h2>Posts</h2>
+  {% include post_list.html %}
+</div>
+</div>
 {% if site.theme_config.show_footer == true %}
   <footer>
     <div class="dashed"></div>
