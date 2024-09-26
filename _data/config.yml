@@ -1,0 +1,26 @@
+navbar_entries:
+  - title: Home
+    url: /index
+  - title: Post list
+    url: /posts
+
+project_entries:
+  - title: server1-5
+    url: 2024/08/12/server1-5
+    desc: Homemade servers from old laptops
+
+  - title: Scout Odometry
+    url: 2024/08/12/Scout-Odometry
+    desc: Visual Odometry for the moorebot scout
+
+  - title: PN-API
+    url: 2024/08/12/PN-API
+    desc: Online anonymity, customizable and free
+    highlight: REVIVED
+
+footer_entries:
+  - title: <i class="fa-brands fa-github"></i>
+    url: https://github.com/snapwhiz914
+
+  - title: <i class="fa-solid fa-rss"></i>
+    url: feed.xml

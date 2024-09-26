@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if site.theme_config.show_navbar == true %}
-{% include horizontal_list.html collection=site.data.home.navbar_entries %}
+{% include horizontal_list.html collection=site.data.config.navbar_entries %}
 <div class="dashed"></div>
 {% endif %}
 <div class="main">
@@ -20,6 +20,6 @@ layout: default
 {% if site.theme_config.show_footer == true %}
   <footer>
     <div class="dashed"></div>
-    {% include horizontal_list.html collection=site.data.home.footer_entries %}
+    {% include horizontal_list.html collection=site.data.config.footer_entries %}
   </footer>
 {% endif %}

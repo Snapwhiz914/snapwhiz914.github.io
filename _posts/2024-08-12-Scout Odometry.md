@@ -18,6 +18,9 @@ Odometry is the process of figuring out how far something has moved, relative to
 
 But what if the robot collides with something, and the wheels move without the robot physically moving? What if it rotates so fast the gyroscope doesn't catch it? For that and various other imperfections, many FRC teams will include a camera system that measures their relative position from [AprilTags](https://april.eecs.umich.edu/software/apriltag), and use a Kalman Filter to integrate these measurements together.
 
+![Apriltags](/assets/images/2024-08-12-Scout-Odometry/apriltags.png)
+*Every FRC game has AprilTags, pictured above, around the field for robots to localize themselves.*
+
 ## SLAM
 
 Going a step further than Odometry, a SLAM software will attempt to make a map of its environment while also measuring where it is relative to where it started. SLAM has a surprising amount of applications (mobile phone measurements and VR/AR being on that list), including the application to a domestic robot such as the Moorebot. It is advertised to be a security device: it can build a map of your home and autonomously move through it and send alerts if necessary. 
