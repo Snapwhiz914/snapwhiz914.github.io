@@ -2,7 +2,7 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
+layout: home
 ---
 # README.MD
 My name is Liam Loughead, and I enjoy writing code for anything that can be programmed. My interests span from robotics to game design to networking utilities. Here you'll find posts that give some insight into the various projects that are on my [github](https://github.com/Snapwhiz914). I'll explain my motivation, explanations of my thought process, and outcomes - anything you wouldn't find in a repository's README.
