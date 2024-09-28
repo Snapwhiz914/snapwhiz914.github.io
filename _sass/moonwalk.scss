@@ -35,8 +35,6 @@ li { margin: 0.4em 0; }
   margin: 0 auto;
   padding-top: 1em;
   padding-bottom: 4em;
-  padding-left: 4em;
-  padding-right: 4em;
 }
 
 div.main {
@@ -49,14 +47,17 @@ div.content {
   float: left;
   //margin-left: 1em;
   max-width: 55em;
+  padding-left: 7.5%;
 }
 
 div.sidebar {
   margin: 0;
   padding: 0;
   max-width: 30em;
+  min-width: 20em;
   height: 100%;
   overflow: auto;
+  padding-right: 7.5%;
 }
 
 div.sidebar h2 {
@@ -149,7 +150,7 @@ blockquote {
 a {
   color: var(--links);
 }
-*:target { background-color: var(--bg-secondary); }
+//*:target { background-color: var(--bg-secondary); }
 
 html.transition,
 html.transition *,
@@ -159,26 +160,6 @@ html.transition *:after {
     transition-delay: 0 !important;
 }
 
-.theme-toggle {
-  color: var(--text);
-  background-color: transparent;
-  padding: 4px;
-  cursor: pointer;
-  margin: 1em;
-  position: fixed;
-  right: 0;
-  top: 0;
-  border: 2px transparent solid;
-  outline: none;
-}
-
-.theme-toggle:hover {
-  color: var(--links);
-  outline: none;
-}
-.theme-toggle:focus {
-  outline: none;
-}
 .dashed {
   border-top: 1px var(--text) dashed;
   margin: 0.5em 0;

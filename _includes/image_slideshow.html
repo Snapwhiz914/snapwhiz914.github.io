@@ -1,0 +1,73 @@
+<!-- Obtained from https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+<!-- Slideshow container -->
+{% if site.data.slideshow_images.images.size > 0 %}
+<div class="slideshow-container">
+    <img id="slides-bgimage">
+    <div id="slides-banner">
+        <h1>Liam Loughead</h1>
+        <h3>Computer Science & Engineering</h3>
+        <a href="#scroll-to-projects">Projects</a>
+    </div>
+    <!-- Full-width images with number and caption text -->
+    {% for image in site.data.slideshow_images.images %}
+    <div class="slides-fade">
+        <img src="{{ image.url }}">
+        <a class="slides-caption-text" href="{{ image.link }}">{{ image.caption }}</a>
+    </div>
+    {% endfor %}
+    <!-- Next and previous buttons -->
+    <a class="slides-prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="slides-next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+    {% for image in site.data.slideshow_images.images %}
+    <span class="slides-dot" onclick="currentSlide({{ forloop.index }})"></span>
+    {% endfor %}
+</div>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    // Next/previous controls
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("slides-fade");
+        let bgImage = document.getElementById("slides-bgimage");
+        let dots = document.getElementsByClassName("slides-dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        bgImage.src = slides[slideIndex - 1].children.item(0).src;
+        dots[slideIndex - 1].className += " active";
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+{% endif %}

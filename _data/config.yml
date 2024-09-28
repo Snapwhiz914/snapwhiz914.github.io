@@ -3,6 +3,8 @@ navbar_entries:
     url: /index
   - title: Post list
     url: /posts
+  - title: About me
+    url: /about
 
 project_entries:
   - title: server1-5

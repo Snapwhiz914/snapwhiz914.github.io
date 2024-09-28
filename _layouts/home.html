@@ -3,46 +3,48 @@ layout: default
 ---
 
 <header>
-{% if site.theme_config.show_navbar == true %}
+  {% if site.theme_config.show_navbar == true %}
   {% include horizontal_list.html collection=site.data.config.navbar_entries %}
   <div class="dashed"></div>
-{% endif %}
+  {% endif %}
 </header>
 
 <div class="main">
-<div class="content">
-{{ content }}
+  {% include image_slideshow.html %}
+  <div class="content">
+    {{ content }}
 
-{% if site.theme_config.show_projects == true %}
-  <h2>{{ site.theme_config.home.title_projects }}</h2>
-  {% include card_list.html collection=site.data.config.project_entries %}
-{% endif %}
+    {% if site.theme_config.show_projects == true %}
+    <h1 style="text-align: center;">{{ site.theme_config.home.title_projects }}</h1>
+    {% include card_list.html collection=site.data.config.project_entries %}
+    {% endif %}
 
-{% if site.theme_config.show_misc_list == true %}
-  <h2>{{ site.theme_config.home.title_misc_list }}</h2>
-  {% include vertical_list.html collection=site.data.config.misc_entries %}
-{% endif %}
+    {% if site.theme_config.show_misc_list == true %}
+    <h2>{{ site.theme_config.home.title_misc_list }}</h2>
+    {% include vertical_list.html collection=site.data.config.misc_entries %}
+    {% endif %}
 
-{% if site.theme_config.show_blog == true %}
-  <h2>{{ site.theme_config.home.title_blog }}</h2>
-  {% include post_list.html %}
-{% endif %}
+    {% if site.theme_config.show_blog == true %}
+    <h2>{{ site.theme_config.home.title_blog }}</h2>
+    {% include post_list.html %}
+    {% endif %}
 
-{% if site.theme_config.show_old_projects == true %}
-  <h2>{{ site.theme_config.home.title_old_projects }}</h2>
-  {% include card_list.html collection=site.data.config.old_project_entries %}
-{% endif %}
+    {% if site.theme_config.show_old_projects == true %}
+    <h2>{{ site.theme_config.home.title_old_projects }}</h2>
+    {% include card_list.html collection=site.data.config.old_project_entries %}
+    {% endif %}
 
-</div>
+  </div>
+  <div id="scroll-to-projects"></div>
 
-<div class="sidebar">
-  <h2>Posts</h2>
-  {% include post_list.html %}
-</div>
+  <div class="sidebar">
+    <h2 style="text-align: center;">Posts</h2>
+    {% include post_list.html %}
+  </div>
 </div>
 {% if site.theme_config.show_footer == true %}
-  <footer>
-    <div class="dashed"></div>
-    {% include horizontal_list.html collection=site.data.config.footer_entries %}
-  </footer>
+<footer>
+  <div class="dashed"></div>
+  {% include horizontal_list.html collection=site.data.config.footer_entries %}
+</footer>
 {% endif %}

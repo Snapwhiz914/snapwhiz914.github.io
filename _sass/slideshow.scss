@@ -1,0 +1,146 @@
+.slideshow-container *{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+#slides-bgimage {
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+  filter: blur(1em);
+  object-fit: fill;
+  height: 625px;
+  width: 100%;
+}
+
+/* Banner */
+
+#slides-banner {
+  position: absolute;
+  top: 30%;
+  left: 0px;
+  width: 100%;
+  padding: 1%;
+  text-align: center;
+  background-color: rgba(113, 113, 113, 0.75);
+}
+
+#slides-banner h1 {
+  color: black;
+  font-size: 4em;
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+  margin-inline-start: 0%;
+  margin-inline-end: 0%;
+  padding: 0%;
+  margin: 0%;
+}
+
+#slides-banner h3 {
+  color: black;
+  font-size: 1.5em;
+  margin-block-start: 0%;
+  margin-block-end: 0%;
+  margin-inline-start: 0%;
+  margin-inline-end: 0%;
+  padding: 0%;
+  padding-bottom: 1.5%;
+  margin: 0%;
+}
+
+#slides-banner a {
+  color: var(--links);
+  background-color: #636569;
+  font-size: 1.25em;
+  margin-block-start: 0%;
+  margin-block-end: 2%;
+  margin-inline-start: 0%;
+  margin-inline-end: 2%;
+  padding: 0.7em;
+  margin: 0%;
+  border-radius: 0.5em;
+  text-decoration: none;
+}
+
+/* Hide the images by default */
+.slides-fade {
+  display: none;
+}
+
+.slides-fade img {
+  object-fit: cover;
+  height: 625px;
+}
+
+/* Next & previous buttons */
+.slides-prev, .slides-next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.slides-next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Caption text */
+.slides-caption-text {
+  text-decoration: none;
+  font-weight: normal;
+  padding: 0.5em;
+  text-wrap:nowrap;
+  max-width: min-content;
+  background: rgba(113, 113, 113, 0.75);
+  border-radius: 0.5em;
+  transition: all 0.25s ease-in-out;
+  font-size: 1.5em;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+
+.slides-caption-text:hover {
+  background: rgba(61, 62, 64, 1);
+}
+
+/* The dots/bullets/indicators */
+.slides-dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .slides-dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.slides-fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes slides-fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
