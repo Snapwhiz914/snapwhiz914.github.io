@@ -30,10 +30,12 @@
 
 <script>
     let slideIndex = 1;
+    let hasClickedASideButton = false;
     showSlides(slideIndex);
 
     // Next/previous controls
     function plusSlides(n) {
+        hasClickedASideButton = true;
         showSlides(slideIndex += n);
     }
 
@@ -69,5 +71,9 @@
             });
         });
     });
+
+    setInterval(() => {
+        plusSlides(1);
+    }, 4500);
 </script>
 {% endif %}
