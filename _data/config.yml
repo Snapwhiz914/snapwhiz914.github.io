@@ -7,13 +7,19 @@ navbar_entries:
     url: /about
 
 project_entries:
+  - title: Lego robot arm
+    url: 2024/10/19/Lego-Arm
+    desc: Stacking Legos autonomously
+    highlight: FEATURED
+  
+  - title: vSLAM with DL
+    url: 2024/10/19/Independent-Study
+    desc: Feature detection with neural networks for vSLAM
+    highlight: FEATURED
+  
   - title: server1-5
     url: 2024/08/12/server1-5
     desc: Homemade servers from old laptops
-
-  - title: Scout Odometry
-    url: 2024/08/12/Scout-Odometry
-    desc: Visual Odometry for the moorebot scout
 
   - title: PN-API
     url: 2024/08/12/PN-API

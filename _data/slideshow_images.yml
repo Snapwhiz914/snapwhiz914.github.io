@@ -1,4 +1,12 @@
 images:
+  - url: assets/images/2024-10-19-Lego-Arm/arm1.jpg
+    caption: Lego Building Robot Arm
+    link: 2024/10/19/Lego-Arm
+  
+  - url: assets/images/2024-10-19-Independent-Study/videoframe.png
+    caption: Feature Detection with DL
+    link: 2024/10/19/Independent-Study
+  
   - url: assets/images/2024-08-12-PN-API/Screenshot.png
     caption: PN-API
     link: 2024/08/12/PN-API

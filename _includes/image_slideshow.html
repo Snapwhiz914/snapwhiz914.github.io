@@ -16,8 +16,8 @@
     </div>
     {% endfor %}
     <!-- Next and previous buttons -->
-    <a class="slides-prev" onclick="plusSlides(-1)">&#10094;</a>
-    <a class="slides-next" onclick="plusSlides(1)">&#10095;</a>
+    <a class="slides-prev" onclick="slideArrowClickCB(-1)">&#10094;</a>
+    <a class="slides-next" onclick="slideArrowClickCB(1)">&#10095;</a>
 </div>
 <br>
 
@@ -34,8 +34,12 @@
     showSlides(slideIndex);
 
     // Next/previous controls
+    function slideArrowClickCB(n) {
+        hasClickedASideButton = true
+        plusSlides(n)
+    }
+
     function plusSlides(n) {
-        hasClickedASideButton = true;
         showSlides(slideIndex += n);
     }
 
@@ -73,7 +77,7 @@
     });
 
     setInterval(() => {
-        plusSlides(1);
-    }, 4500);
+        if (!hasClickedASideButton) plusSlides(1);
+    }, 4000);
 </script>
 {% endif %}
