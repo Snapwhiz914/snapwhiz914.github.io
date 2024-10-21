@@ -1,6 +1,8 @@
 navbar_entries:
   - title: Home
     url: /index
+  - title: Github
+    url: https://github.com/snapwhiz914
   - title: Post list
     url: /posts
   - title: About me
