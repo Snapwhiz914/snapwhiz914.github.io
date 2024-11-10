@@ -62,7 +62,7 @@ This function converts a voltage from a potentiometer within a known range of mi
 
 ## After: WiredCats2024Akit
 
-![A simulation of the robot, produced with AdvantageScope](/assets/images/2024-10-19-Wiredcats2024Akit/wiredcats24akit.JPG)
+![A simulation of the robot, produced with AdvantageScope](/assets/images/2024-10-19-Wiredcats2024Akit/wiredcats24akit.png)
 *A simulation of the robot, produced with AdvantageScope*
 
 WiredCats2024Akit in its current state is exactly what I was looking for when I originally had the idea. I started with the subsystems, adding an IO layer to all of them. Then I reorganized the constants and applied other small changes, moving code around along the way. Then I focused on the highlight of WiredCats2024Akit: simulation and visualization. I created sim IO layers for every subsystem, a simulated environment class that kept track of the robot's interactions with the game objects and visualization classes that managed the position of the robot's components and game objects so AdvantageScope would display them correctly.
