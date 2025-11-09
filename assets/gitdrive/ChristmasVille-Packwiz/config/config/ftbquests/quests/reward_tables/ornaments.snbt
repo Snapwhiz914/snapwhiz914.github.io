@@ -1,0 +1,21 @@
+{
+	id: "057BB85166027480"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "skinnedlanterns:ornament_red_lantern_block" }
+		{ item: "skinnedlanterns:ornament_light_blue_lantern_block" }
+		{ item: "skinnedlanterns:ornament_green_lantern_block" }
+		{ item: "skinnedlanterns:ornament_yellow_lantern_block" }
+		{ item: "christmasfestivity:christmas_ball_pink" }
+		{ item: "christmasfestivity:christmas_ball_light_blue" }
+		{ item: "christmasfestivity:christmas_ball_orange" }
+		{ item: "christmasfestivity:christmas_ball_white" }
+		{ item: "christmasfestivity:christmas_ball_purple" }
+		{ item: "skinnedlanterns:present_green_lantern_block" }
+		{ item: "skinnedlanterns:present_red_lantern_block" }
+		{ item: "skinnedlanterns:snowman_lantern_block" }
+		{ item: "christmasfestivity:christmas_square_pink" }
+	]
+	title: "Ornaments"
+}

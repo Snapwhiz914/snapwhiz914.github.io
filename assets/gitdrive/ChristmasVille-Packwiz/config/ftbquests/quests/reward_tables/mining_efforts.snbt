@@ -1,0 +1,16 @@
+{
+	id: "2ED9CD9F9BCF13AA"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ count: 32, item: "minecraft:raw_copper" }
+		{ count: 32, item: "minecraft:raw_iron" }
+		{ count: 32, item: "minecraft:raw_gold" }
+		{ count: 32, item: "mekanism:raw_osmium" }
+		{ count: 32, item: "mekanism:raw_tin" }
+		{ count: 32, item: "mekanism:raw_lead" }
+		{ count: 32, item: "mekanism:raw_uranium" }
+		{ count: 32, item: "create:raw_zinc" }
+	]
+	title: "Mining Efforts"
+}

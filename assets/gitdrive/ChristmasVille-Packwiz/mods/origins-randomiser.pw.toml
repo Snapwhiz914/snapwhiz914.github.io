@@ -1,0 +1,13 @@
+name = "Origins Randomiser"
+filename = "origins-randomiser-2.3.1+1.20.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "df98a466b294f16b9e09aef8bfa99bfe037a099f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4761847
+project-id = 635774

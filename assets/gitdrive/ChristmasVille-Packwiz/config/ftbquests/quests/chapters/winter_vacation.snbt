@@ -1,0 +1,517 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "winter_vacation"
+	group: ""
+	icon: "beachparty:palm_sapling"
+	id: "1E1A40626860443B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["To get to your destination, make yourself a &6pina coloda&r and enjoy it while watching the &6sunset&r. Don't forget to be relaxing in a nice &bbeach chair&r to get the vibes started!"]
+			icon: "tropicraft:pineapple"
+			id: "745471AD89E58B19"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "537D445F46A6E912"
+					table_id: 3238129434968736494L
+					type: "random"
+				}
+				{
+					id: "31D7B19505285567"
+					item: "tropicraft:fishing_net"
+					type: "item"
+				}
+				{
+					id: "620A96187105FB86"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				dimension: "tropicraft:tropics"
+				icon: "beachparty:hammock"
+				id: "0A86F8651C380D25"
+				title: "Sunshine, here I come!"
+				type: "dimension"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			id: "017EFF667858F05E"
+			rewards: [
+				{
+					id: "08708269AB4E2D0D"
+					item: "tropicraft:light_blue_chair"
+					type: "item"
+				}
+				{
+					id: "4767948FB6EC7FCE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "58A63497F8285434"
+				item: { Count: 32b, id: "minecraft:sand" }
+				type: "item"
+			}]
+			title: "The Sun and the Sand..."
+			x: -8.5d
+			y: -5.0d
+		}
+		{
+			id: "645A5FAEDE8C5BF7"
+			rewards: [
+				{
+					count: 16
+					id: "0EAEBB0064114E6F"
+					item: "tropicraft:pineapple_cubes"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "68CB27F80C2509CE"
+					item: "tropicraft:coconut_chunk"
+					type: "item"
+				}
+				{
+					id: "2B597313F29879B9"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "37588486CEA02168"
+				item: "tropicraft:bamboo_mug"
+				type: "item"
+			}]
+			title: "And a Drink in my Hand"
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["745471AD89E58B19"]
+			description: ["Finda a &6Koa Village&r in the tropics."]
+			id: "178E481883CD79DC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5925DEE918754B8A"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C613001FF27CC42"
+					table_id: 7185959090886023032L
+					type: "choice"
+				}
+				{
+					id: "64EBE02478D02E8F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: "moa_decor_toys:aldeanojungla"
+				id: "0EB31A5CB6587BB2"
+				structure: "tropicraft:koa_village"
+				title: "Visit the Locals"
+				type: "structure"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["745471AD89E58B19"]
+			description: ["There's a &6land volcano&r somewhere around here!"]
+			id: "0CF298A3EE36C688"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6932DBDF2FD91A9F"
+					table_id: 3485001548526207895L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2FBE33498157C562"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					id: "34FB96B04680B252"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: "minecraft:lava_bucket"
+				id: "0231A532B51749D7"
+				structure: "tropicraft:land_volcano"
+				title: "Dante's Inferno"
+				type: "structure"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["745471AD89E58B19"]
+			id: "5D22FB4D93EF23BA"
+			rewards: [
+				{
+					id: "065C22187DC44996"
+					item: {
+						Count: 1b
+						id: "tropicraft:yellow_scuba_goggles"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BFEB6E7C3D5EBF6"
+					item: {
+						Count: 1b
+						id: "tropicraft:yellow_scuba_harness"
+						tag: {
+							Damage: 0
+							scuba: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "66062CA970F7E6E1"
+					item: {
+						Count: 1b
+						id: "tropicraft:yellow_scuba_flippers"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14B324DB518DEC6A"
+					item: "tropicraft:air_compressor"
+					type: "item"
+				}
+				{
+					id: "5CFD6EB98218321F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "0825327A88D4DEF2"
+					item: "beachparty:beach_towel"
+					type: "item"
+				}
+				{
+					id: "7A440B77244EA9F4"
+					item: {
+						Count: 1b
+						id: "beachparty:trunks"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Grab your towel and let's swim!"
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"4314702DDF5861B4"
+				"1598CAEF6E102B00"
+				"1B42152DF5410104"
+				"29F76F10A592E3D9"
+				"23A4F4E289AAC492"
+				"50F027B0DE013B1F"
+			]
+			id: "75CB5303CE98B217"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3AC71A5C5F12AEAA"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00CDC774C302368F"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					id: "7FD9D5476DF31004"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "28DD70EFF1F903E9"
+				title: "Throw your friends a Beach Party!"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: ["No party in the tropics is complete without some chilly treats!"]
+			id: "29F76F10A592E3D9"
+			rewards: [
+				{
+					id: "5E664B0BF1FEB1D0"
+					item: "beachparty:mini_fridge"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "2540EADA094AE1E3"
+					item: "beachparty:cabinet"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "4D990E49400C48A9"
+					item: "beachparty:tiki_chair"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F8A64386D25D423"
+				item: "beachparty:tiki_bar"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			id: "1B42152DF5410104"
+			rewards: [{
+				count: 64
+				id: "311A7DD4EED84BDD"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B7A552D95355B3B"
+				item: "beachparty:empty_sand_bucket"
+				type: "item"
+			}]
+			title: "Time to make sandcastles"
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			id: "4314702DDF5861B4"
+			rewards: [
+				{
+					id: "63822B6CC324CBE8"
+					item: {
+						Count: 1b
+						id: "beachparty:rubber_ring_axolotl"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55B81D3174203097"
+					item: {
+						Count: 1b
+						id: "beachparty:beach_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "497A5935087D8607"
+				item: { Count: 16b, id: "beachparty:coconut" }
+				type: "item"
+			}]
+			title: "Local Fruit tastes better"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "23A4F4E289AAC492"
+			rewards: [
+				{
+					id: "7A0BD28B88AAB6F8"
+					item: "tropicraft:grapefruit_sapling"
+					type: "item"
+				}
+				{
+					id: "432F707537329472"
+					item: "tropicraft:lime_sapling"
+					type: "item"
+				}
+				{
+					id: "569F667C38DFCC0E"
+					item: "tropicraft:lemon_sapling"
+					type: "item"
+				}
+				{
+					id: "6C14959F13A09FF6"
+					item: "tropicraft:orange_sapling"
+					type: "item"
+				}
+				{
+					id: "240A3B06742DF4C7"
+					item: "tropicraft:papaya_sapling"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3766668050A1FC08"
+					item: "tropicraft:bamboo_mug"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "6803FC488629AB44"
+				item: "tropicraft:drink_mixer"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "1598CAEF6E102B00"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6346913E9BAFAD87"
+					table_id: 3375955481088431018L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A9144B731CB2425"
+					table_id: 3485001548526207895L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6FB810AD62909764"
+				item: "beachparty:radio"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5D22FB4D93EF23BA"]
+			id: "6C963582D01E7558"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4795AFBF8C7D9AC6"
+					table_id: 3375955481088431018L
+					type: "random"
+				}
+				{
+					id: "6B31769533789433"
+					type: "xp"
+					xp: 300
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6566048AF6A380A1"
+					table_id: 7185959090886023032L
+					type: "random"
+				}
+				{
+					id: "5E135BFDE8F11E6E"
+					item: {
+						Count: 1b
+						id: "tropicraft:water_wand"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DB91D57B61A0B3E"
+					item: "minecraft:tropical_fish_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				icon: "mekanism:scuba_mask"
+				id: "3FF501B01EE26450"
+				stat: "minecraft:swim_one_cm"
+				title: "Swim like a Fish"
+				type: "stat"
+				value: 1000
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "50F027B0DE013B1F"
+			rewards: [
+				{
+					id: "3BD2C67C3EB0C55D"
+					item: "tropicraft:pink_umbrella"
+					type: "item"
+				}
+				{
+					id: "0B7327CD78C524B7"
+					item: "tropicraft:cyan_umbrella"
+					type: "item"
+				}
+				{
+					id: "7AF1A90D60AF3C46"
+					item: "tropicraft:green_umbrella"
+					type: "item"
+				}
+				{
+					id: "67B96CAE4306CC8F"
+					item: {
+						Count: 1b
+						id: "beachparty:sunglasses"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25095B4DB275B154"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "47DF106312CB4B23"
+				item: "tropicraft:red_umbrella"
+				type: "item"
+			}]
+			title: "Safe spot away from Sunburn"
+			x: 0.0d
+			y: -5.5d
+		}
+	]
+	title: "Winter Vacation"
+}

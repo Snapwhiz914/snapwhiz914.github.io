@@ -1,0 +1,15 @@
+{
+	icon: "maidensmerrymaking:holly_sapling"
+	id: "69C67BF27CC4D7BB"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "maidensmerrymaking:christmas_tree_stand" }
+		{ item: "maidensmerrymaking:star" }
+		{ item: "maidensmerrymaking:white_christmas_tree" }
+		{ item: "maidensmerrymaking:christmas_tree" }
+		{ item: "maidensmerrymaking:ornaments" }
+		{ item: "maidensmerrymaking:ornaments_white" }
+	]
+	title: "Christmas Tree Time!"
+}

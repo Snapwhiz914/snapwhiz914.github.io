@@ -1,0 +1,13 @@
+name = "project-618809"
+filename = "morenugget-2.0.0-1.20-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dad4164454d69808a315fe5743ef0a0252fb893b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4747859
+project-id = 618809

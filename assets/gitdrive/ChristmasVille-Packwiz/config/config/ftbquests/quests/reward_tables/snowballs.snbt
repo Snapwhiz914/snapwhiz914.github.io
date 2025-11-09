@@ -1,0 +1,13 @@
+{
+	id: "52AD68C605D651B0"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ count: 16, item: "bsf:smooth_snowball" }
+		{ count: 16, item: "bsf:duck_snowball" }
+		{ count: 16, item: "bsf:compacted_snowball" }
+		{ count: 16, item: "bsf:compacted_snowball_set" }
+		{ count: 16, item: "bsf:cherry_blossom_snowball" }
+	]
+	title: "Snowballs"
+}

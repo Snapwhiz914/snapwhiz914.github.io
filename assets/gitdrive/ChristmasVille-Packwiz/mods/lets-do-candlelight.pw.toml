@@ -1,0 +1,13 @@
+name = "Legacy: [Let's Do] Candlelight"
+filename = "letsdo-candlelight-forge-1.2.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "92993f144570bb540c1c194f05639871878b108a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4854087
+project-id = 846962

@@ -1,0 +1,37 @@
+{
+	id: "457ECBC4B3498730"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 64, item: "minecraft:dirt" }
+		{ item: "minecraft:bucket" }
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:stone_shovel"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Mining"
+}

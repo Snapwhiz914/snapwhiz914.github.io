@@ -1,0 +1,546 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "automate_the_cookies"
+	group: "00AC2BF048EC01A9"
+	icon: "create_confectionery:gingerbread_man"
+	id: "33BA279DBE275356"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome to Create. Just starting with a few of the basics!"]
+			id: "647DC4C69867F1B4"
+			rewards: [
+				{
+					id: "6FC7D89344A5B4BA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "0C58493BCDC4CAFB"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "5F15CDC0383356D8"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "51C5A214D5DF2A61"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "22F183375C70ECE2"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "create:root"
+				criterion: ""
+				icon: "create:large_cogwheel"
+				id: "7A8E66CB0D9CECAB"
+				title: "Factory in Progress"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["647DC4C69867F1B4"]
+			description: ["Many of the yummy recipes can be automated with the mixer, just need enough power to get it moving."]
+			id: "32DDC939BD11E095"
+			rewards: [
+				{
+					id: "3925237083A71DAA"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "5DECE66B31052A3F"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "626F5A578772806B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "4F2B596A22C89B03"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D544C857BFC51E8"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["647DC4C69867F1B4"]
+			description: ["Make a &6water wheel&r and &6use&r it to get that rotational energy!"]
+			id: "7539783188E57A40"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "256E7E339078FBCF"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62E2CAC63DF10373"
+					table_id: 7185959090886023032L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C25DFA5C9C62646"
+					table_id: 245125318285588924L
+					type: "random"
+				}
+				{
+					id: "1BFA6A1F5ACC9785"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "5407B5BD83C72D8F"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					advancement: "create:water_wheel"
+					criterion: ""
+					icon: "minecraft:water_bucket"
+					id: "5FE8491906FA5A59"
+					title: "Start with the basics"
+					type: "advancement"
+				}
+			]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["647DC4C69867F1B4"]
+			description: ["Wind is also an option, if you're interested."]
+			id: "3B53157D7BD500D5"
+			rewards: [
+				{
+					count: 64
+					id: "28F2E1F69C14E6F1"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "4B94F94F1506CD47"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "621B9AED1AE67478"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["647DC4C69867F1B4"]
+			description: ["Before we bake, we need to mill some wheat."]
+			id: "773D5149EA9EC89E"
+			rewards: [
+				{
+					id: "37FA4A5B97D9E072"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0A5BF578778103B6"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2500A35D337BD8BE"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5919CA80C972EF1C"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["773D5149EA9EC89E"]
+			id: "4643DC38CEFF9FBD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B4F92E40DDF753A"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D647DCB86A56289"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					id: "19EBB79CF3ED7902"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "5A3ADCFB95A44192"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "14E089A893122B55"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "3DA893C8487E977B"
+				item: { Count: 16b, id: "create:wheat_flour" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			icon: "moa_decor_cookery:litrodeleche"
+			id: "08FD89AE037D8019"
+			rewards: [
+				{
+					count: 16
+					id: "7A2F7AE8E3FA2FE9"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "574B84FACC5CC189"
+					table_id: 245125318285588924L
+					type: "random"
+				}
+				{
+					id: "57379B7629C89A06"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				amount: 3000L
+				fluid: "minecraft:milk"
+				icon: "moa_decor_cookery:litrodeleche"
+				id: "35CB42A9BCE8A98E"
+				title: "Milk and..."
+				type: "fluid"
+			}]
+			title: "Got Milk?"
+			x: -3.0d
+			y: -7.0d
+		}
+		{
+			id: "2A8F0ED28CCFF64F"
+			rewards: [
+				{
+					count: 16
+					id: "6AF08D5A9554CEA0"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "78C86D57F105DB8D"
+					table_id: 245125318285588924L
+					type: "choice"
+				}
+				{
+					id: "1FDEFCDFEBECE127"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				amount: 3000L
+				fluid: "create:honey"
+				icon: "minecraft:honey_bottle"
+				id: "42FBDB3EAFFE9F5B"
+				title: "Honey"
+				type: "fluid"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"4643DC38CEFF9FBD"
+				"2A8F0ED28CCFF64F"
+			]
+			id: "16DA455ECBD552DB"
+			rewards: [
+				{
+					id: "3B4907C1194ECCAD"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "23A23001016B36AA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "57D5C0029E79BBCA"
+				item: { Count: 16b, id: "create_confectionery:honey_candy" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"08FD89AE037D8019"
+				"4643DC38CEFF9FBD"
+			]
+			description: ["You can make the flour into dough that you bake.  Add a little topping and you're good to go!"]
+			id: "73BEB648AAA88E90"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "109047BF2697209D"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7AC872AD6C0F2756"
+					table_id: 3485001548526207895L
+					type: "random"
+				}
+				{
+					id: "12F561BF92D93DC3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "435503EC44DE83FE"
+				item: { Count: 16b, id: "create:sweet_roll" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"3B53157D7BD500D5"
+				"7539783188E57A40"
+			]
+			description: ["Steam power allows for faster rotational power as well as more stres, just the right thing for a big factory to keep Santa fed."]
+			id: "5841E717AD258B28"
+			rewards: [
+				{
+					id: "1078393388261694"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "587D590339DDA3E0"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7548F13C046FFBA0"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2493F970C6036DD8"
+					table_id: 3238129434968736494L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "27B1CE2352855B05"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "The real winner for Power here"
+			x: -6.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["47419932248223AD"]
+			description: ["Be careful! Don't Fall in!"]
+			id: "7075805B27C13F72"
+			rewards: [
+				{
+					id: "50ECC638F43E9737"
+					item: "create:crushing_wheel"
+					type: "item"
+				}
+				{
+					id: "0F3577797143B2C7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E3377D5B6484983"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "464FFD05F917C6DC"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1FF124198D2AF84C"
+					item: "create:gearbox"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1001CA1E426E9327"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["647DC4C69867F1B4"]
+			id: "47419932248223AD"
+			rewards: [
+				{
+					count: 21
+					id: "604C43F2CBAEAE9E"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "372775B9987A7E64"
+					table_id: 395112052068349056L
+					type: "random"
+				}
+				{
+					id: "59E4940396D66E2F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 9L
+				id: "4F3D30F4BCC4BE01"
+				item: { Count: 21b, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7075805B27C13F72"
+				"2A8F0ED28CCFF64F"
+				"4643DC38CEFF9FBD"
+			]
+			description: ["You'll need the dough, which needs some crushed netherack, and it'll need to be mixed. But you can automate it! Then it may be time to think about a delivery system to the big man himself...."]
+			id: "2C066EFAFE2CC6FD"
+			rewards: [
+				{
+					id: "63AA211EB4994D83"
+					item: "littlelogistics:conductors_wrench"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0E8CBD65D6FE10BD"
+					item: "littlelogistics:locomotive_dock_rail"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "313FEA10E9024A2E"
+					item: "littlelogistics:car_dock_rail"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0F6E58167C7A8E43"
+					item: "littlelogistics:seater_car"
+					type: "item"
+				}
+				{
+					id: "5A016B7CB06D6126"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "1B3CD5C61812550F"
+				item: { Count: 32b, id: "create_confectionery:gingerbread_man" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: ["Extra cookies? You can always trade them in for some XP. This will &oconsume&r the cookies."]
+			id: "0454CFA08EE77197"
+			optional: true
+			rewards: [{
+				id: "00331FFE8751549E"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "heart"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "5ACC2566D94E0C9F"
+				item: { Count: 32b, id: "create_confectionery:gingerbread_man" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "More cookies for Santa"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "Automate the Cookies"
+}

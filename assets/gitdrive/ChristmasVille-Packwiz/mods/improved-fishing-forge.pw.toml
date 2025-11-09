@@ -1,0 +1,13 @@
+name = "Improved Fishing - Forge/NeoForged"
+filename = "improvedfishing-1.0-1.20-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d5edee0d63b64e9b5a09707ddb5991f299205c9d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4712888
+project-id = 852214

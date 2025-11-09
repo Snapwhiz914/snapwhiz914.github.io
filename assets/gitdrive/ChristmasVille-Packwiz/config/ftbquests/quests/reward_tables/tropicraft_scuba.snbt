@@ -1,0 +1,43 @@
+{
+	icon: {
+		Count: 1b
+		id: "tropicraft:yellow_scuba_goggles"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "02F0D77DCEF39406"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "tropicraft:yellow_scuba_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tropicraft:yellow_scuba_harness"
+				tag: {
+					Damage: 0
+					scuba: { }
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "tropicraft:yellow_scuba_flippers"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "Tropicraft scuba (yellow)"
+}

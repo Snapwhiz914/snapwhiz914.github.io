@@ -1,0 +1,276 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "metalhead"
+	group: "3522D2306E2C37B2"
+	icon: "minecraft:iron_ore"
+	id: "7415C9E67DF4B462"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "64EA133C13CC4752"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "583EC9842E30E55A"
+					table_id: 5007663881364539184L
+					type: "choice"
+				}
+				{
+					id: "379F32CAA8B4D316"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5B3AA75A9723B187"
+				title: "Metals!"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -9.0d
+		}
+		{
+			id: "68748E9CCC1C383C"
+			rewards: [{
+				id: "3FC5E0EBA121AE41"
+				item: "minecraft:minecart"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7233F8D15FA996D6"
+				item: { Count: 16b, id: "minecraft:iron_ingot" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -7.0d
+		}
+		{
+			id: "73932BF8145B43FC"
+			rewards: [{
+				id: "1125B9E330E5D067"
+				item: "minecraft:furnace_minecart"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "2C8A1A48167B7ED2"
+				item: { Count: 16b, id: "minecraft:copper_ingot" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			id: "4B2FF71679917E29"
+			rewards: [{
+				count: 16
+				id: "31BAADEDEEC9B233"
+				item: "minecraft:powered_rail"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "574A00E0B9DFB0A8"
+				item: "minecraft:gold_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			id: "4994074ADAE00262"
+			rewards: [{
+				count: 64
+				id: "5E0856767E72BAD6"
+				item: "minecraft:rail"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "3BF0A312FA729A37"
+				item: { Count: 16b, id: "mekanism:ingot_osmium" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "308A6741B0186CAA"
+			rewards: [{
+				count: 16
+				id: "1870CFBC438632E1"
+				item: "minecraft:detector_rail"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "0331F207AF0CE5E2"
+				item: { Count: 16b, id: "create:zinc_ingot" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			id: "2D00BDFDCBD257B5"
+			rewards: [{
+				count: 8
+				id: "0D4A533BF1D24611"
+				item: "minecraft:activator_rail"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "1A594997C653B099"
+				item: { Count: 16b, id: "mekanism:ingot_uranium" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -7.0d
+		}
+		{
+			id: "6AD27DDDE8BB943B"
+			rewards: [{
+				id: "6D5E045DB394ADBE"
+				item: "minecraft:hopper_minecart"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7A13685D3AC71C33"
+				item: "mekanism:ingot_lead"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "5B619A7342EC6A54"
+			rewards: [{
+				count: 16
+				id: "7D737D7C3EE150A2"
+				item: "minecraft:powered_rail"
+				type: "item"
+			}]
+			tasks: [{
+				count: 16L
+				id: "112F8F928C07BD51"
+				item: { Count: 16b, id: "mekanism:ingot_tin" }
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"4B2FF71679917E29"
+				"64EA133C13CC4752"
+				"68748E9CCC1C383C"
+				"308A6741B0186CAA"
+				"2D00BDFDCBD257B5"
+				"5B619A7342EC6A54"
+				"73932BF8145B43FC"
+				"4994074ADAE00262"
+				"6AD27DDDE8BB943B"
+			]
+			id: "3EBBED5C208E1704"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "071959435E134960"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BB8CCCEFFC11F74"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "3049C7C1207C4DF5"
+				title: "Metals, yes as cool as rocks. Maybe."
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3049C7C1207C4DF5"
+				"3EBBED5C208E1704"
+			]
+			description: ["You can grow them in botany pots too!"]
+			id: "36B7741271AA77E3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "35EE9D01B2B91889"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					count: 2
+					id: "0F0B21DF7F1B0D7D"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2525F85514594BA5"
+				title: "Did you know"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			description: ["Metals, but mixed!"]
+			id: "2F57AC5DB8EC2F11"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58F721D2CE6D6DA5"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "016CC02CBB52AF7E"
+					table_id: 3238129434968736494L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "08A205795EB4EB59"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+				{
+					id: "6898D1540481DEE4"
+					item: "mekanism:ingot_bronze"
+					type: "item"
+				}
+				{
+					id: "1CD21FDF19B5E0BE"
+					item: "mekanism:ingot_steel"
+					type: "item"
+				}
+				{
+					id: "75532D15FC67AD58"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+			]
+			title: "Alloys"
+			x: -5.5d
+			y: -5.0d
+		}
+	]
+	title: "Metalhead"
+}

@@ -1,0 +1,13 @@
+name = "Frosted Friends"
+filename = "frosted-friends-1.20.1-1.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7f381bcacd9c28d85a2a8835bdd1982aeef8ce72"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4703584
+project-id = 355720

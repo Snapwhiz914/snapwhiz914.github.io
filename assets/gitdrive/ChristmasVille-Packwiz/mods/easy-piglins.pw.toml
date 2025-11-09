@@ -1,0 +1,13 @@
+name = "Easy Piglins"
+filename = "easy_piglins-1.20.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cf251ce9bbd7f5892011f06a4bb8c7af18375e86"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4584234
+project-id = 419372

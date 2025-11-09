@@ -1,0 +1,22 @@
+{
+  "general": {
+    "randomiseOrigins": true,
+    "randomiserMessages": true,
+    "allowDuplicateOrigins": false
+  },
+  "command": {
+    "randomiseCommand": true,
+    "limitCommandUses": false,
+    "randomiseCommandUses": 3
+  },
+  "lives": {
+    "enableLives": false,
+    "startingLives": 10,
+    "livesBetweenRandomises": 1
+  },
+  "other": {
+    "deathRandomisesOrigin": true,
+    "sleepRandomisesOrigin": false,
+    "sleepsBetweenRandomises": 1
+  }
+}

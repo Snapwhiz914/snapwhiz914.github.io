@@ -1,0 +1,13 @@
+name = "IceShards WinterJam"
+filename = "iceshards-1.0-7fc4.noarch.fpm.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "78f9bb3503023bd478c56b8b26f46a1f88dbfc00"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4947727
+project-id = 730740

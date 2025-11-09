@@ -1,0 +1,39 @@
+{
+	id: "53466A30EE6C9040"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "moa_decor_toys:alex" }
+		{ item: "moa_decor_toys:osopolar" }
+		{ item: "moa_decor_toys:tortugamarina" }
+		{ item: "moa_decor_toys:ocelote" }
+		{ item: "moa_decor_toys:zorroblanco" }
+		{ item: "moa_decor_toys:calamarbrillante" }
+		{ item: "moa_decor_toys:steve" }
+		{ item: "moa_decor_toys:gatonegro" }
+		{ item: "moa_decor_toys:sniffer" }
+		{ item: "moa_decor_toys:ajolotecian" }
+		{ item: "moa_decor_toys:lorocian" }
+		{ item: "moa_decor_toys:vendedorambulante" }
+		{ item: "moa_decor_toys:fantasma" }
+		{ item: "moa_decor_toys:golemdenieve" }
+		{ item: "moa_decor_toys:murcielago" }
+		{ item: "moa_decor_toys:shulker" }
+		{ item: "moa_decor_toys:ajoloteazul" }
+		{ item: "moa_decor_toys:aldeanoinvierno" }
+		{ item: "moa_decor_toys:guardian" }
+		{ item: "moa_decor_toys:abeja" }
+		{ item: "moa_decor_toys:gallinayjinetealdeanozombie" }
+		{ item: "moa_decor_holidays:p_oso_polar_n" }
+		{ item: "moa_decor_toys:creeper" }
+		{ item: "moa_decor_toys:champivaca" }
+		{ item: "moa_decor_toys:devastador" }
+		{ item: "moa_decor_toys:ghast" }
+		{ item: "moa_decor_holidays:santa_claus" }
+		{ item: "moa_decor_holidays:p_galleta_jengibre" }
+		{ item: "moa_decor_holidays:duende_navideno" }
+		{ item: "moa_decor_holidays:duende_navidena" }
+		{ item: "moa_decor_holidays:creeper_nieve" }
+	]
+	title: "Toyland Plushies!"
+}

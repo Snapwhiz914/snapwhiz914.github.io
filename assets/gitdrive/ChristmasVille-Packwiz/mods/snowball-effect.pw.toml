@@ -1,0 +1,13 @@
+name = "Snowball Effect"
+filename = "snowballeffect-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3b9647df4bfee0f6f226c635d6f62b49d7e5acb3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4848651
+project-id = 558761

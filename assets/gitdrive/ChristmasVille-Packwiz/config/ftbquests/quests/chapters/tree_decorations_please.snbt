@@ -1,0 +1,249 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tree_decorations_please"
+	group: "76FC92DD5A73B827"
+	icon: "create:track_station"
+	id: "01AB7E200E783A01"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["You'll need to reach the &6Brass Age&r to get the train going. This will help you in other questlines that need &6mechanical crafters&r."]
+			id: "59FB775EFEECBB86"
+			rewards: [
+				{
+					id: "0EDDF645A64B5B7F"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "39EC720A9B27DB98"
+					table_id: 3375955481088431018L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5626341307F561C7"
+					table_id: 2015378344854094576L
+					type: "random"
+				}
+				{
+					id: "398A098E91144C92"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 3
+					id: "761E27F6750F0DA7"
+					item: "create:brass_hand"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "61DD56C7316265BF"
+				item: { Count: 16b, id: "create:brass_ingot" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["59FB775EFEECBB86"]
+			id: "29DDD6F748389073"
+			rewards: [
+				{
+					id: "03BA52FB2C8955A4"
+					item: "create:precision_mechanism"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DFBE28F0727F730"
+					table_id: 6000600311908831296L
+					type: "choice"
+				}
+				{
+					id: "3036CD95DD407D53"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1C4E2BF8516AFFED"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59FB775EFEECBB86"]
+			id: "3B954D1A70445F23"
+			rewards: [
+				{
+					count: 64
+					id: "1271D1BC8F1B497B"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "0C6CE5E1B1D910B3"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "234ABF69B5E0F92D"
+				item: { Count: 64b, id: "create:track" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["59FB775EFEECBB86"]
+			id: "54E118103CE5FE0F"
+			rewards: [
+				{
+					id: "71303AD1AD2C93FE"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2656F6C468CA8884"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "17B23640D63275A8"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "5DA41760F9CC3078"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "0F714389EB7A8A8B"
+				item: { Count: 2b, id: "create:brass_casing" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"54E118103CE5FE0F"
+				"7DF5D4B05BF13A6F"
+			]
+			id: "214D28AC2DA63002"
+			rewards: [
+				{
+					id: "6E15A6DE67FCB572"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A23580B3FACB279"
+					table_id: 6000600311908831296L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "066F93B689F6F920"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "7AB017DD3B367870"
+				item: { Count: 2b, id: "create:track_station" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54E118103CE5FE0F"]
+			description: ["Need &6sturdy plating&r to make."]
+			id: "7DF5D4B05BF13A6F"
+			rewards: [
+				{
+					id: "2762369E125FB978"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58DE73873E5BAFF8"
+					table_id: 6000600311908831296L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "22AAD7D9E27BF5F8"
+					table_id: 7185959090886023032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "627176EAD5608F84"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			description: ["Grab some &clava&r and start a farm. It'll come in handy!"]
+			icon: "minecraft:lava_bucket"
+			id: "1694FCF6281FC888"
+			rewards: [
+				{
+					id: "56D7577BBE9FB470"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B4742B99EBE4060"
+					table_id: 245125318285588924L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C104DD16133C99D"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:story/lava_bucket"
+					criterion: ""
+					id: "2FDE79DB24840CC5"
+					type: "advancement"
+				}
+				{
+					amount: 4000L
+					fluid: "minecraft:lava"
+					id: "4121713C1EAC6A09"
+					type: "fluid"
+				}
+			]
+			x: -2.0d
+			y: -4.5d
+		}
+	]
+	title: "Now Arriving: The Polar Express"
+}

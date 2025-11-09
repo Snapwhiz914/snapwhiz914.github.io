@@ -1,0 +1,13 @@
+name = "MOA DECOR: TOYS"
+filename = "MOAdecor TOYS 1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "834ede174dd4a072397c7fba81293c11c7c63a8f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4731878
+project-id = 701524

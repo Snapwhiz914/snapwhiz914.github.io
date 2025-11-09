@@ -1,0 +1,215 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "toy_store"
+	group: "76FC92DD5A73B827"
+	icon: "storageracks:birch_iron_rack"
+	id: "1267220A0C120F41"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Let's build a toy store in our Christmasville to display all those cool items being made in the shop!"]
+			id: "0908FB40C98117C6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "78C49BC87C3396BD"
+					table_id: 7621915700776720315L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6A0F560E12DE4C3C"
+					table_id: 7185959090886023032L
+					type: "random"
+				}
+				{
+					id: "0DE1C54E0C02837F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7988652733631A06"
+				title: "Should put those toys on dispay!"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0908FB40C98117C6"]
+			description: ["A nice light color shelf should let those items really shine."]
+			id: "6D0C86C61D12716D"
+			rewards: [
+				{
+					count: 16
+					id: "195B4DAAA92A5A53"
+					item: "buildersaddition:shelf_dark_oak"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "398F75CF18C15A8A"
+					item: "buildersaddition:shelf_cherry"
+					type: "item"
+				}
+				{
+					id: "6BC1424FDC58EA85"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "7DB2BEE53A13BC0F"
+				item: { Count: 16b, id: "buildersaddition:shelf_birch" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0908FB40C98117C6"]
+			description: ["The really special stuff goes in here!"]
+			id: "1BE01C42FA430627"
+			rewards: [
+				{
+					count: 4
+					id: "140B9DEE605F9B23"
+					item: {
+						Count: 1b
+						id: "display_case:display_case"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FFC9B9F6034849F"
+					table_id: 6000600311908831296L
+					type: "choice"
+				}
+				{
+					id: "221AD5FAF5D372B0"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "7A7CBFD9DE1E7F3A"
+				item: {
+					Count: 4b
+					id: "display_case:display_case"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0908FB40C98117C6"]
+			description: ["Some festive &6hats&r would look nice too. A good way to show off your growing collection."]
+			id: "0FE48A3C3EB38094"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74B20A7803BB952F"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					id: "6F0A01E955453B50"
+					item: "simplehats:hatbag_festive"
+					type: "item"
+				}
+				{
+					id: "07C605EA52B976DE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "2ADF2C3FFEA49C7E"
+				item: { Count: 8b, id: "simplehats:hatdisplay" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0908FB40C98117C6"]
+			description: ["&6Storage racks&r are an easy way to display items on shelves but still actually store a good amount of items."]
+			id: "7F0C310CB7892A52"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2B5E7438479C33EF"
+					table_id: 3375955481088431018L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5B1AFBE49385B914"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					id: "064CC31D040408D1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 20L
+				id: "6C8BE2A6C21356DE"
+				item: { Count: 20b, id: "storageracks:birch_iron_rack" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7F0C310CB7892A52"]
+			description: ["Of course the store can have different shelving styles but I thought it would match the other shelves."]
+			id: "5D63DCF7A4457E26"
+			rewards: [
+				{
+					count: 20
+					id: "0BEB2EF3B9E569E3"
+					item: "storageracks:birch_iron_rack"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A0E540D97CF23CD"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					count: 16
+					id: "62DBE1E8AD764905"
+					item: "storageracks:birch_iron_corner"
+					type: "item"
+				}
+				{
+					id: "784C960EE8420265"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "582140D749B1F4F5"
+				item: "storageracks:iron_controller"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -6.5d
+		}
+	]
+	title: "Toy Store"
+}

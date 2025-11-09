@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_gingerbread_era"
+	group: "76FC92DD5A73B827"
+	icon: "maidensmerrymaking:mantel_deco_1"
+	id: "6BF17964E1FF803F"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["341CF50B775FF496"]
+			description: ["Reach your Gingerbread Era in the &nbakery&r and let's turn it life size!"]
+			id: "3B7484B43BAAC086"
+			rewards: [{
+				id: "7F9E9D5D377E41F4"
+				type: "xp"
+				xp: 1000
+			}]
+			tasks: [{
+				icon: "maidensmerrymaking:mantel_deco_1"
+				id: "4DFC02085B7A897E"
+				stage: "Gingerbread"
+				title: "The Gingerbread Era"
+				type: "gamestage"
+			}]
+			x: -12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3B7484B43BAAC086"]
+			description: ["We could use these- they look sturdy. May even have some varients that are adorable!"]
+			id: "46A5AECDC061479B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5D65E184436DDBEE"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					id: "6332C6421D270960"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1EFC4A396A4E3610"
+					table_id: 3238129434968736494L
+					type: "choice"
+				}
+				{
+					id: "1B1A5F8253759D2E"
+					item: "snowyspirit:gingerbread_door"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3D25EA25F30C9973"
+					item: "snowyspirit:gingerbread_trapdoor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4E30BA5CBBC38C6A"
+					item: "snowyspirit:gingerbread_frosted"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "47309CFD5ADD4A4F"
+				item: { Count: 64b, id: "snowyspirit:gingerbread" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3B7484B43BAAC086"]
+			description: ["Adding a little texture to those houses!"]
+			id: "69659EE3485F948D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7703B258A195F741"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					id: "1918A40D18FBB209"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5393677637888778"
+					table_id: 7621915700776720315L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "4A4CAA4A6D1C79A4"
+				item: { Count: 64b, id: "create_confectionery:gingerbread_block" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3B7484B43BAAC086"]
+			description: ["Well, it's just a cute pink one. You should definately have more but I didn't want to pick the colors for you- though rainbow is a good option."]
+			id: "35AC42C0EABC24F6"
+			rewards: [
+				{
+					count: 16
+					id: "57804BE4F33B1356"
+					item: "snowyspirit:gumdrop_green"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "688AEF845BE868A6"
+					item: "snowyspirit:gumdrop_yellow"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1682003C8F60599E"
+					item: "snowyspirit:gumdrop_cyan"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "59CC65E98D38646B"
+					item: "snowyspirit:gumdrop_blue"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1B993ECDB2519DC1"
+					item: "snowyspirit:gumdrop_purple"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "288602C3AE30DFC8"
+					item: "snowyspirit:gumdrop_red"
+					type: "item"
+				}
+				{
+					id: "63578AE5BF7CA845"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "0200D4DDCE3A08A5"
+				item: "snowyspirit:gumdrop_pink"
+				type: "item"
+			}]
+			title: "Goooey Gooey Gumdrops!"
+			x: -11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3B7484B43BAAC086"]
+			description: ["You could use the greens on the normal buildings but the white just looks like extra icing. Yum! Make into wreaths if you need more ideas."]
+			id: "6FA4F8CD84ACD52D"
+			rewards: [
+				{
+					count: 32
+					id: "603287934B52EB68"
+					item: "christmasfestivity:snowy_garland"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3D46BAA6EEEC3A82"
+					table_id: 395112052068349056L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B5F678F37874972"
+					table_id: 7621915700776720315L
+					type: "choice"
+				}
+				{
+					id: "2324CB5B88647BA3"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "41BD9E16B3C2027B"
+				item: { Count: 8b, id: "christmasfestivity:snowy_garland" }
+				type: "item"
+			}]
+			title: "This garland looks like it has sprinkles...."
+			x: -14.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3B7484B43BAAC086"]
+			description: ["Use the sugar blocks to make placeable candy canes.  Could even use those red and white striped blocks too.  But you already had to get those. "]
+			id: "64BA6EC53353E09B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4DC805A23AB61413"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					id: "0846E7B9503D5AEC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "10DA72B866CCC3D1"
+				item: "christmasfestivity:candy_canes_tall"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["3B7484B43BAAC086"]
+			description: ["Travel to a dimension where dreams are made of! Mining will get you the components you'll need for these blocks. Do they fit into the giant gingerbread house?"]
+			id: "43459E939B941DAB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D7030E0C5FC5BAA"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "567B35E2EB7097C4"
+					table_id: 7621915700776720315L
+					type: "choice"
+				}
+				{
+					count: 16
+					id: "7779875C92757658"
+					item: "good_nights_sleep:hard_candy_block"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "00B46876F3A9FA69"
+					item: "good_nights_sleep:raw_spectrite_block"
+					type: "item"
+				}
+				{
+					id: "4F013BBDFDE6839F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "42A0D8725680E187"
+					item: "good_nights_sleep:hard_candy_block"
+					type: "item"
+				}
+				{
+					id: "0E72EC1C502414A6"
+					item: "good_nights_sleep:raw_spectrite_block"
+					type: "item"
+				}
+			]
+			title: "Forgein Candy can really elevate the build"
+			x: -10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["43459E939B941DAB"]
+			description: ["A lolipop bush sounds like the perfect plant to decorate that gingerbread house with."]
+			id: "1C010BD7AF409CC2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3794C218A3C4B9FD"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DD5BC40D1EEB90D"
+					table_id: 7621915700776720315L
+					type: "choice"
+				}
+				{
+					id: "4FEC58EE1CBACE77"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 8
+					id: "554755DAC3B41628"
+					item: "buildersaddition:planter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3C6C16D29DA23716"
+				item: "good_nights_sleep:lollipop_bush"
+				type: "item"
+			}]
+			title: "Candy houses call for candy plants..."
+			x: -9.0d
+			y: -8.0d
+		}
+	]
+	title: "The Gingerbread Era"
+}

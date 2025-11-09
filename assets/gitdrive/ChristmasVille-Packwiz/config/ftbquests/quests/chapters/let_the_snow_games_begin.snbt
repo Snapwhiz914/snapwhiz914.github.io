@@ -1,0 +1,649 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "let_the_snow_games_begin"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "bsf:iron_snowball_clamp"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2CABAC561F050EA6"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Find a &6snowy biome&r to create the ultimate snowball fight of winter!"]
+			id: "654B4A3AC2ACBE50"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5352A7D9CE4BD680"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					count: 4
+					id: "2D70D9B549686929"
+					item: "minecraft:end_crystal"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7BEA8956467A938D"
+					item: "minecraft:redstone_block"
+					type: "item"
+				}
+				{
+					id: "1D6A771A1370D5EC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "#forge:is_snowy"
+				icon: "minecraft:snow_block"
+				id: "0A940F20C4DD2274"
+				title: "Snowy Arena Scouted"
+				type: "biome"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"0A940F20C4DD2274"
+				"654B4A3AC2ACBE50"
+			]
+			description: ["Snowball fights need ammo!"]
+			id: "3593A9CA658F0B45"
+			rewards: [
+				{
+					count: 16
+					id: "6AE2C58194E295D9"
+					item: "minecraft:snowball"
+					type: "item"
+				}
+				{
+					id: "3A0879908092886A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "779EA0C5A772E053"
+				item: {
+					Count: 1b
+					id: "bsf:wood_snowball_clamp"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Start the Ammo"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"779EA0C5A772E053"
+				"3593A9CA658F0B45"
+			]
+			description: ["Upgrade!"]
+			id: "742DE10C901BC52E"
+			rewards: [
+				{
+					count: 16
+					id: "79F7100C37254BD2"
+					item: "bsf:duck_snowball"
+					type: "item"
+				}
+				{
+					id: "7BCF8298F1FECB5C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "653D59291D36DC2B"
+				item: {
+					Count: 1b
+					id: "bsf:iron_snowball_clamp"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"779EA0C5A772E053"
+				"3593A9CA658F0B45"
+			]
+			description: ["Better Ammo needs a better weapon!"]
+			hide_dependency_lines: true
+			id: "0B12D720D7C24D8D"
+			rewards: [
+				{
+					id: "1F51F88DD89B8C52"
+					item: {
+						Count: 1b
+						id: "bsf:snowball_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B0EA1871BF4D1C3"
+					table_id: 3238129434968736494L
+					type: "choice"
+				}
+				{
+					id: "152C67C3A5041C86"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "64606F4145EDB64D"
+				item: { Count: 16b, id: "bsf:iron_snowball" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["654B4A3AC2ACBE50"]
+			description: ["How you want to build it is truly up to you. You could just click this quest and be done. I think there is something to be said for including some lockers for other gear, a resting place with food to enjoy, unique terrain or obstacles to manuver around, and some boundry. "]
+			id: "1A6437D7FEE8F81B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36F713E97213D0EF"
+					table_id: 5957533081791779248L
+					type: "loot"
+				}
+				{
+					count: 16
+					id: "31DD0B374F331D90"
+					item: "snowmancy:evercold_ice"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1675A9E567753C40"
+					table_id: 7185959090886023032L
+					type: "random"
+				}
+				{
+					id: "7B0CFFAD4D45C09D"
+					type: "xp"
+					xp: 500
+				}
+			]
+			tasks: [{
+				id: "15864015A6DD315F"
+				title: "Build the Arena"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["742DE10C901BC52E"]
+			description: ["Dedicated to the snowball fight, I see!"]
+			id: "15BFDB4790281A80"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1D5D9FCB65A4CD97"
+					table_id: 5957533081791779248L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68923B0176913224"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					id: "34C61CE0F1A66DE3"
+					item: {
+						Count: 1b
+						id: "bsf:basin"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "442CC72CE58B71BC"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4C80B162F05FAA76"
+				item: {
+					Count: 1b
+					id: "bsf:diamond_snowball_clamp"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1A6437D7FEE8F81B"]
+			description: ["You need a place to carry all those snowballs, yes?"]
+			id: "16714F30E5055C1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6EDA9C468FAAF4C5"
+					table_id: 5957533081791779248L
+					type: "loot"
+				}
+				{
+					id: "38C39BE2D1E7C167"
+					item: "bsf:snowball_cannon_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "08A3410CD6109D48"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "4F5A0BDAA127E5C0"
+				item: {
+					Count: 1b
+					id: "bsf:snowball_tank"
+					tag: {
+						Damage: 96
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16714F30E5055C1F"]
+			description: ["Upgrades are for those serious. Serious about having fun!"]
+			id: "25E4FF7079DE33B9"
+			rewards: [
+				{
+					id: "3A9E7B24248C9FDA"
+					item: {
+						Count: 1b
+						id: "bsf:snow_golem_container"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "63619CAE289CB5B6"
+					item: "bsf:blank_golem_core"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "57E2D23280A37236"
+				item: {
+					Count: 1b
+					id: "bsf:large_snowball_tank"
+					tag: {
+						Damage: 192
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["16714F30E5055C1F"]
+			description: ["You can &6upgrade&r cannons in the &nsmithing table&r with templates as well as some other components that make up a core. "]
+			id: "6EDF2B40ED212D86"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7ECF69850EDAD03A"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "23D91549C88F6AEF"
+					item: "bsf:blank_golem_core"
+					type: "item"
+				}
+				{
+					id: "35EAD08E4B18D6BE"
+					item: {
+						Count: 1b
+						id: "bsf:powerful_snowball_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "32C62A90AFB60E95"
+				item: {
+					Count: 1b
+					id: "bsf:powerful_snowball_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["16714F30E5055C1F"]
+			description: ["You can &6upgrade&r cannons in the &nsmithing table&r. Use the template as well as other components that make a core."]
+			id: "19180346891039A2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4EA8B1E34EE35D77"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					id: "68F0DE2852F8351D"
+					item: "bsf:snowball_cannon_upgrade_smithing_template"
+					type: "item"
+				}
+				{
+					id: "006A38B8A0284314"
+					item: {
+						Count: 1b
+						id: "bsf:freezing_snowball_cannon"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "79F0677AA38826AE"
+				item: {
+					Count: 1b
+					id: "bsf:freezing_snowball_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			description: ["Craft up some gloves to help catch those snowballs!"]
+			id: "42680E42475DE2E7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "70EAA7C386FB3AB6"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08BBD1D6B5F332D0"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "1888F403B3BFD840"
+					item: "minecraft:lodestone"
+					type: "item"
+				}
+				{
+					id: "46CD25942E77A363"
+					item: {
+						Count: 1b
+						id: "bsf:snow_fall_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E919EAE4952C374"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "54831B81D512E616"
+				item: {
+					Count: 1b
+					id: "bsf:glove"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Monks aren't the only one to catch missiles"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "49EF16899C0AEF48"
+			rewards: [
+				{
+					count: 2
+					id: "1436CF8FCEAB7988"
+					item: "bsf:gravity_core"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "27912B8BC6D7CC27"
+					item: "bsf:repulsion_core"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "40C85168FF934563"
+					item: "bsf:tracking_core"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7727AAAB5E0A10A0"
+					item: "minecraft:blue_ice"
+					type: "item"
+				}
+				{
+					id: "793903498D479400"
+					item: "snowmancy:snowman_builder"
+					type: "item"
+				}
+				{
+					id: "3EEDD01930B0A003"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "1AF2FB2C383BBE94"
+				item: "bsf:smart_snow_block"
+				type: "item"
+			}]
+			title: "Do you want to build a Snowman?"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: ["Have some fun, but maybe wear the right boots if you're placing this down in the fight area."]
+			id: "2034245EC7B7BBC3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25A79872426F3370"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4302357E23CF4830"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					count: 32
+					id: "617ED77C81F204E8"
+					item: "festive_delight:gingerbread_man"
+					type: "item"
+				}
+				{
+					id: "586B3E79D2D30CD6"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "25190DF2015894E0"
+				item: {
+					Count: 1b
+					id: "bsf:snow_block_blender"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			description: ["Have fun!"]
+			id: "6058E850877631ED"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "684AFB4452E0FB44"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DB28978B05BE434"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					id: "47859CCE97727E10"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "4DB5E4EE689277BD"
+				item: {
+					Count: 1b
+					id: "bsf:snow_trap_setter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			description: ["Fill a basin with snow to get ready to have your snowball fight."]
+			id: "3102A9078F20D55E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "653EA34C50CE0074"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58E1C3AC7D5B190C"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "bsf:empty_basin_full"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "bsf:basin"
+					tag: { }
+				}
+				id: "108BF60FD684ECCD"
+				title: "All about snow storage"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["654B4A3AC2ACBE50"]
+			description: ["Hmmm. Looks like it could build a snowman. Or creature. I wonder if I should keep an eye on it."]
+			id: "5FCD614031C527C2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6B8E893B83ECF26E"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54D43A499329E732"
+					table_id: 7621915700776720315L
+					type: "random"
+				}
+				{
+					id: "4B542EDF1D89DD85"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0C05F1921BCFB3BB"
+				item: "snowballeffect:magic_coal"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "Let the Snow Games Begin"
+}

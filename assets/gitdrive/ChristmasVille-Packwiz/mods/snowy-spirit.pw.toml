@@ -1,0 +1,13 @@
+name = "Snowy Spirit"
+filename = "snowyspirit-1.20-2.2.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9700acbed5ea7c7c8312db353e6c1cbad1a6d4ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4873771
+project-id = 566142

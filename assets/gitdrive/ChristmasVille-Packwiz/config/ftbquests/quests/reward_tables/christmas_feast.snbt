@@ -1,0 +1,14 @@
+{
+	id: "63B9A7B866C01778"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ item: "maidensmerrymaking:stuffed_poultry_dinner" }
+		{ item: "farmersdelight:apple_pie" }
+		{ item: "christmasfestivity:eggnog" }
+		{ item: "festive_delight:festive_chiken" }
+		{ item: "bakery:linzer_tart" }
+		{ item: "festive_delight:christmas_tea" }
+	]
+	title: "Christmas Feast"
+}

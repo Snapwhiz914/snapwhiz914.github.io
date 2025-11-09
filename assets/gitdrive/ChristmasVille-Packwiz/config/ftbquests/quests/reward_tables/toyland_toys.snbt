@@ -1,0 +1,30 @@
+{
+	id: "305D3671AD974397"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "moa_decor_science:telescopio" }
+		{ item: "moa_decor_art:acuarelas" }
+		{ item: "moa_decor_science:globoterraqueo" }
+		{ item: "moa_decor_garden_:casa_p_acacia" }
+		{ item: "moa_decor_art:maquinadecoser" }
+		{ item: "moa_decor_art:tecladomusical" }
+		{ item: "moa_decor_art:tamborazulclaro" }
+		{ item: "maidensmerrymaking:dreidel" }
+		{
+			item: {
+				Count: 1b
+				id: "bsf:ice_skates"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "buildersaddition:arcade_oak" }
+		{ item: "manyideas_doors:mini_lodge_police_box" }
+		{ item: "moa_decor_holidays:globos_rojo" }
+		{ item: "cozy_home:telescope" }
+		{ item: "cozy_home:tent" }
+	]
+	title: "Toyland Toys!"
+}

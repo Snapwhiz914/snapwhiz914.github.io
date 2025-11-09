@@ -1,0 +1,19 @@
+{
+	id: "0366DC2DA1DDF9BC"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "colored_water:magenta_water_bucket" }
+		{ item: "colored_water:cyan_water_bucket" }
+		{ item: "colored_water:yellow_water_bucket" }
+		{ item: "colored_water:red_water_bucket" }
+		{ item: "colored_water:lime_water_bucket" }
+		{ item: "colored_water:condense_purple_water_bucket" }
+		{ item: "colored_water:luminous_light_blue_water_bucket" }
+		{ item: "colored_water:luminous_pink_water_bucket" }
+		{ item: "colored_water:luminous_orange_water_bucket" }
+		{ item: "colored_water:luminous_green_water_bucket" }
+		{ item: "colored_water:luminous_white_water_bucket" }
+	]
+	title: "Water"
+}

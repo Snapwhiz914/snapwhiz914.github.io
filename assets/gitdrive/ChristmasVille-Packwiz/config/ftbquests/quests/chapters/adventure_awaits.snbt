@@ -1,0 +1,431 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure_awaits"
+	group: ""
+	icon: "moa_decor_science:mapadeltesoro"
+	id: "76C1EFBBA5AA4420"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Have to see the world to come back with all the Christmas Goodies!"]
+			id: "41D3F04F414DD90B"
+			rewards: [
+				{
+					id: "0D6DA404979A3809"
+					item: "moa_decor_science:mapadeltesoro"
+					type: "item"
+				}
+				{
+					id: "3E4A57800FCE1BBF"
+					type: "xp"
+					xp: 500
+				}
+				{
+					id: "37935107920579DC"
+					item: "maidensmerrymaking:mantel_normal_mangrove"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1472FDD5222771DA"
+					table_id: 7605147829610934964L
+					type: "random"
+				}
+			]
+			tasks: [{
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+				icon: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				id: "4CCC4283C24FD8CD"
+				title: "Let's Get Adventuring"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			id: "52E0CBE53F05671C"
+			rewards: [
+				{
+					id: "6FF2B9366F3C130B"
+					item: "christmasfestivity:epiphany_stocking_green"
+					type: "item"
+				}
+				{
+					id: "46AB43561C93770A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "minecraft:grass"
+				id: "0C0E0FAF045369A0"
+				title: "Plains"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			id: "0190DE5AC5BDEA9E"
+			rewards: [
+				{
+					id: "28A07CD59EA5B745"
+					item: "christmasfestivity:epiphany_stocking_white"
+					type: "item"
+				}
+				{
+					id: "2DA85DB5CBDDB376"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "#forge:is_snowy"
+				icon: "minecraft:snow"
+				id: "613048A65512BC5C"
+				title: "Snow"
+				type: "biome"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			id: "791DEEE4086169FD"
+			rewards: [
+				{
+					id: "30FB5F8E6E7619F8"
+					item: "christmasfestivity:epiphany_stocking_yellow"
+					type: "item"
+				}
+				{
+					id: "4844C0DA8B2B830C"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "minecraft:forest"
+				id: "101041EC3D07187C"
+				title: "Forest"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: -4.5d
+		}
+		{
+			icon: "minecraft:sandstone_slab"
+			id: "28BEE1AA3CF5B4B7"
+			rewards: [
+				{
+					id: "539A5745B516D3A1"
+					item: "christmasfestivity:epiphany_stocking_orange"
+					type: "item"
+				}
+				{
+					id: "7FAEA9AA0478AD95"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "minecraft:desert"
+				id: "6AB5DC70E13B53F4"
+				type: "biome"
+			}]
+			title: "Desert"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			icon: "minecraft:kelp"
+			id: "3C935CFEB0FAEFC2"
+			rewards: [
+				{
+					id: "7BAC0EA98545EC15"
+					item: "christmasfestivity:epiphany_stocking_magenta"
+					type: "item"
+				}
+				{
+					id: "34C22338CE542923"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				biome: "minecraft:ocean"
+				id: "526FB3347928A7D5"
+				type: "biome"
+			}]
+			title: "Ocean"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			description: ["You must be tired after all that exploring! Good job!"]
+			icon: "minecraft:dirt_path"
+			id: "31D65DA64E8F320C"
+			rewards: [
+				{
+					id: "5204DCAD59D62A4F"
+					type: "xp"
+					xp: 300
+				}
+				{
+					id: "2EF9F77365F8FC9B"
+					item: {
+						Count: 1b
+						id: "bsf:snow_fall_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3023E99D637E63E1"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 100000
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			description: ["Find &6trail ruins&r. They're fun to explore, I promise!"]
+			id: "74176FCD13545B95"
+			rewards: [
+				{
+					id: "5CE10FE3D313503D"
+					item: {
+						Count: 1b
+						id: "minecraft:brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "68C16A397DA74BB0"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "4A91DE87F3F37CB2"
+					item: "betterarcheology:archeology_table"
+					type: "item"
+				}
+				{
+					id: "31513E1303C89EAE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "betterarcheology:iron_brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "08C2E073BE39B815"
+				structure: "minecraft:trail_ruins"
+				title: "Discover more with Achreology"
+				type: "structure"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			description: ["Find an &6ancient city&r."]
+			id: "0114FC6617A4BF80"
+			rewards: [
+				{
+					count: 32
+					id: "56321B1BC8573E6C"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0B5F135D6A23B629"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "5E4EFFCE8EBE1B0C"
+					item: "moa_decor_toys:warden"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34305B9850A9A8AD"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					id: "18D2D26449409FCF"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				icon: "minecraft:deepslate_bricks"
+				id: "5C2A64455DE36C63"
+				structure: "#minecraft:ancient_city"
+				title: "Adventuring Below"
+				type: "structure"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0114FC6617A4BF80"]
+			description: ["&6Kill&r a &bwarden&r. How hard could it be?"]
+			id: "478E260CB33921A6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54D6C298DC236AEB"
+					table_id: 3238129434968736494L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3026BD49E7C3040E"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+				{
+					id: "45DFB8033468FC8E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DD363D5863C6EED"
+					table_id: 5957533081791779248L
+					type: "choice"
+				}
+				{
+					count: 4
+					id: "16AE06EA3576613D"
+					item: "refinedstorage:64k_storage_disk"
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:warden"
+				icon: "moa_decor_toys:warden"
+				id: "19B02968EB6F8F9B"
+				title: "A warden, really?"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			description: ["Sleeping always helps. Unless it doesn't. &nMight want to add an extra bed&r to that inventory before you lay your head down in any strange bed."]
+			id: "6508A930DC5F5D70"
+			rewards: [
+				{
+					id: "70058991033B4F57"
+					item: "good_nights_sleep:unicorn_spawn_egg"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C3A6C0831AB09F3"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "029CB5FA1E88BA3F"
+					table_id: 7621915700776720315L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				dimension: "good_nights_sleep:dream"
+				icon: "good_nights_sleep:strange_bed"
+				id: "06A391ED9612EFF2"
+				title: "Don't Forget to Rest"
+				type: "dimension"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["74176FCD13545B95"]
+			description: ["Find some &6artifact shards&r and combine them to make an unidentified artifact. Should you start your own museum? Could be a nice break from all the sweets in town."]
+			id: "6C682D7E089343E6"
+			rewards: [
+				{
+					id: "2F8A159FE17B6134"
+					item: {
+						Count: 1b
+						id: "betterarcheology:diamond_brush"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0FEFE2D4D2F2E265"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					id: "7D6DE29D7E76236D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "069161A4C7649E9A"
+				item: "betterarcheology:unidentified_artifact"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"On your adventures you'll find &6bounty boards&r in villages. Hope you can help! You can also craft your own to set up an adventuring point from your base."
+				""
+				"You can use your trusty &bcallable horse&r to help travel faster to make sure you reach your goals in time."
+			]
+			icon: "bountiful:bountyboard"
+			id: "3F1113BB97B6A653"
+			rewards: [{
+				id: "4AE7302383E4376F"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "7316A79C17AF04DA"
+				title: "Find a Bounty Board"
+				type: "checkmark"
+			}]
+			title: "Help with Bounties!"
+			x: -8.0d
+			y: -6.0d
+		}
+	]
+	title: "Adventure Awaits"
+}

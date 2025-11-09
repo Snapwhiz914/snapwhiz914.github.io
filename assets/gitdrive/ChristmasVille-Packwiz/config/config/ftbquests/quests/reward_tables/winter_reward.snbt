@@ -1,0 +1,13 @@
+{
+	id: "2CF02590940C42EE"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "christmasfestivity:candy_canes" }
+		{ item: "skinnedlanterns:snowman_lantern_block" }
+		{ item: "maidensmerrymaking:peppermint_cocoa" }
+		{ item: "maidensmerrymaking:fruitcake" }
+		{ item: "christmasfestivity:little_snowman_light_blue" }
+	]
+	title: "Winter Reward"
+}

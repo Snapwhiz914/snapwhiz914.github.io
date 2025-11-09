@@ -1,0 +1,425 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_christmasville"
+	group: "76FC92DD5A73B827"
+	icon: "christmasfestivity:christmas_tree"
+	id: "5AD1D533AAFB739B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["In this pack there are many decor mods to help decorate for Christmas. The goal is to make a village with many different buildings for the holiday. &6Building gadgets&r can make light work of your builds, just need some way of charging them!"]
+			icon: "maidensmerrymaking:peppermint_cocoa"
+			id: "0600B200EB0CC71C"
+			rewards: [
+				{
+					id: "07677A082658BDBA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "317DC772BB1A9330"
+					table_id: 3238129434968736494L
+					type: "choice"
+				}
+				{
+					id: "3CCCF50BC7F650AB"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5EC39DCCD85ACE44"
+				title: "Are you ready?"
+				type: "checkmark"
+			}]
+			title: "This Christmas we are going to make a winter village!"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5EC39DCCD85ACE44"
+				"0600B200EB0CC71C"
+			]
+			description: ["Get Ready to get those trees decorated!"]
+			id: "7EF76BA36F902E77"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3FDE32CA36AE5CF6"
+					table_id: 7621915700776720315L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "32248251E9B3A37C"
+					item: "minecraft:glowstone_dust"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 64L
+					id: "608775FB4312D223"
+					item: { Count: 64b, id: "minecraft:spruce_log" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2538B6CAB6803C0A"
+					item: { Count: 16b, id: "minecraft:spruce_sapling" }
+					type: "item"
+				}
+			]
+			title: "The OG Christmas Tree"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			description: ["Especially if you really want that big one in the town center...."]
+			id: "08380CC6D18AEDEB"
+			rewards: [
+				{
+					id: "1F37977F774F3CC1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6633C5D53BEFF114"
+					table_id: 7621915700776720315L
+					type: "random"
+				}
+				{
+					count: 64
+					id: "0015B6CD9991EDA1"
+					item: "christmasfestivity:christmas_leaves"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1E68E80CB5CF079E"
+					item: "maidensmerrymaking:spruce_leaves_lights_large_white"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "3BA6CFE7B9124412"
+				item: { Count: 32b, id: "maidensmerrymaking:spruce_leaves_lights_multi" }
+				type: "item"
+			}]
+			title: "Custom Trees are an option"
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7EF76BA36F902E77"]
+			id: "740A6E06B89A8622"
+			rewards: [
+				{
+					count: 64
+					id: "78DB3C76BC052957"
+					item: "moa_decor_holidays:gema_festividades"
+					type: "item"
+				}
+				{
+					id: "326850C85C17B540"
+					item: "moa_decor_holidays:pino_navideno"
+					type: "item"
+				}
+				{
+					id: "588FE60D1D580794"
+					item: "moa_decor_holidays:base_pino_navideno"
+					type: "item"
+				}
+				{
+					id: "1D063EABBA5502B4"
+					item: "moa_decor_holidays:estrella_navidena"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "4F1F655C3F1C5FD7"
+				item: "moa_decor_holidays:gema_festividades"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7EF76BA36F902E77"]
+			description: ["Another one! there are so many, our Christmasville should probably display them all!"]
+			id: "04EC06B6A1C85157"
+			rewards: [
+				{
+					id: "50A754AE576E738B"
+					item: "manyideas_christmas:fireplace_spruce"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EF13C8C389924DD"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "3D0D92A3F3DC21C5"
+				item: "manyideas_christmas:christmas_tree"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7EF76BA36F902E77"]
+			description: ["Spotted another one!"]
+			id: "40380000EC62A8B2"
+			rewards: [
+				{
+					count: 16
+					id: "4DAA08792AFEB5E5"
+					item: "maidensmerrymaking:christmas_tree"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7921AE5C208D96F5"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5B1028AA596F393A"
+				item: "christmasfestivity:christmas_tree"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7EF76BA36F902E77"]
+			id: "011E08B44301A264"
+			rewards: [
+				{
+					count: 16
+					id: "1B85343293503F11"
+					item: "maidensmerrymaking:christmas_tree_stand"
+					type: "item"
+				}
+				{
+					id: "41D7BA6ADD29308F"
+					item: "maidensmerrymaking:star_topper"
+					type: "item"
+				}
+				{
+					id: "0A1E0088D929A765"
+					item: "maidensmerrymaking:bow_topper"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3078C6C01D7BC306"
+					table_id: 395112052068349056L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "49F52FB4569251E3"
+				item: "maidensmerrymaking:christmas_tree_stand"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["0600B200EB0CC71C"]
+			description: ["Also comes in a colorful variety if you're interested!"]
+			id: "6E6F423898C1146F"
+			rewards: [
+				{
+					count: 64
+					id: "6E0B05856A00FBDB"
+					item: "maidensmerrymaking:oak_wreath_lights_fence"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0F24B1082EE7C060"
+					item: "maidensmerrymaking:oak_wreath_lights_fence_gate"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0049DFEB856CA417"
+					item: "maidensmerrymaking:garland_horizontal_multi"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "0C7188A174F1F866"
+					item: "maidensmerrymaking:stone_brick_garland_lights_wall"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "3B2FEA6CEB1AFF04"
+					item: { Count: 16b, id: "maidensmerrymaking:oak_wreath_lights_fence" }
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "17C3E56A5B69AA4C"
+					item: { Count: 16b, id: "maidensmerrymaking:stone_brick_garland_lights_wall" }
+					type: "item"
+				}
+			]
+			title: "Festive fence!"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0600B200EB0CC71C"]
+			description: ["Just one way of lighting up the streets"]
+			id: "57EC41F77A3DD951"
+			rewards: [
+				{
+					count: 64
+					id: "2B937FE762CEF120"
+					item: "moa_decor_lights:gemadeluz"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "258E116980EA89A7"
+					item: "moa_decor_lights:faroltriple_n"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "1590503F6F03E23C"
+					item: "moa_decor_lights:postefarol_n"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "13A40C9BEC13B40C"
+					item: "moa_decor_lights:basefarol_n"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "3AC78A274D4E03A7"
+				item: { Count: 16b, id: "moa_decor_lights:gemadeluz" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0600B200EB0CC71C"]
+			description: ["Not all of them make big blocks, but they are all yummy!"]
+			id: "789BABFD7A4E4709"
+			rewards: [
+				{
+					count: 64
+					id: "63CB2A57625FDCEB"
+					item: "snowyspirit:candy_cane_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6BCA1C8FBEA5127B"
+					item: "create_confectionery:candy_cane_block"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "243BBB2FAFF2B235"
+					item: "christmasfestivity:sugar_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "25ED8A0E0343768E"
+					item: "snowyspirit:candy_cane_block"
+					type: "item"
+				}
+				{
+					id: "6957BE5756FA5526"
+					item: "create_confectionery:candy_cane_block"
+					type: "item"
+				}
+				{
+					id: "4768627422F456D0"
+					item: "christmasfestivity:sugar_block"
+					type: "item"
+				}
+			]
+			title: "Which candy cane is your favoite?"
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7EF76BA36F902E77"]
+			description: ["Not another Christmas Tree!"]
+			id: "65105B84CD499167"
+			rewards: [
+				{
+					count: 16
+					id: "5CB44629ADEC9869"
+					item: "maidensmerrymaking:christmas_tree"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "10C4F5804118F0C8"
+					item: "maidensmerrymaking:white_christmas_tree"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3F58FE5D13150154"
+				item: "maidensmerrymaking:white_christmas_tree"
+				type: "item"
+			}]
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			description: ["You and your friends can have your own &nmailbox&r to send Christmas cheer as you play!"]
+			id: "6FA6CE3C78835407"
+			rewards: [
+				{
+					id: "6431EA006C3D6B79"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0BC7A05AD3727E1A"
+					table_id: 3238129434968736494L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5B77A8B9FD9B4A6B"
+				item: "mighty_mail:post_box"
+				type: "item"
+			}]
+			title: "Letters to Santa"
+			x: -5.0d
+			y: -4.0d
+		}
+	]
+	title: "Welcome to Christmasville"
+}

@@ -1,0 +1,13 @@
+name = "Christmas Additions"
+filename = "SpankstersChristmasMod[2.0]1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "de2ee8e2ea230bb6ee780b95d95cdea14a67b358"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4948471
+project-id = 560164

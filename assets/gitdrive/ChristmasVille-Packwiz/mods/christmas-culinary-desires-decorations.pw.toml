@@ -1,0 +1,13 @@
+name = "Christmas Culinary & Decorations "
+filename = "christmasculinarydesires - 1.0.0 1.20.1 forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6cbfa0509c400c3c1430aeb7ee761af3c794debc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4958308
+project-id = 946010

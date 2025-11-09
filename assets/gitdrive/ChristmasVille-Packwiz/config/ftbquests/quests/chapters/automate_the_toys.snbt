@@ -1,0 +1,429 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "automate_the_toys"
+	group: "00AC2BF048EC01A9"
+	icon: "moa_decor_holidays:regalo_cian"
+	id: "69ECA6A0B518CCEC"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Toys need to be wrapped too- it's not just about making them."]
+			id: "7713D41BB5742E86"
+			rewards: [
+				{
+					id: "3BF70731129E7732"
+					item: "supplementaries:present_red"
+					type: "item"
+				}
+				{
+					id: "1142FA0157D59EF8"
+					item: "supplementaries:present_blue"
+					type: "item"
+				}
+				{
+					id: "3F2676CFB62881C7"
+					item: "supplementaries:present_gray"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72D82D2D828F5BC8"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					id: "7EC4E201F6EC9E0F"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "6431F7EB895ADBC7"
+				item: "supplementaries:present"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.5d
+		}
+		{
+			description: ["Mine-Pop boxes are sure to be a favorite. You can set up an autocrafter to get them on the assembly line."]
+			id: "450F722BE36BB8A3"
+			rewards: [
+				{
+					count: 64
+					id: "6232E274A8C99BAB"
+					item: "minecraft:black_dye"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "132A0844E65E3A36"
+					item: "minecraft:armor_stand"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CF46482CC1FDDD0"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					id: "30B524D0F2630385"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0E67797351528440"
+				item: "minepop:randombox"
+				type: "item"
+			}]
+			title: "Mystery boxes are big this Year"
+			x: -10.0d
+			y: -7.5d
+		}
+		{
+			description: ["Yes you need to go somewhere special to find the materials for this one. It's the dream sled afterall, takes some time to build. "]
+			id: "20A20878CD69A9AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14FE4A46205D587E"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E5FD5847990B20F"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					id: "03E9638F76570B68"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "0544F227454C486E"
+				item: "snowyspirit:good_nights_sleep/sled_dream"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			description: ["A tug boat to play with that you can ride? Sounds amazing!"]
+			id: "5A6FDFC0EA20E3AA"
+			rewards: [
+				{
+					count: 4
+					id: "39FF44BF42B57D89"
+					item: "littlelogistics:seater_barge"
+					type: "item"
+				}
+				{
+					id: "0B115CFF930A532D"
+					item: "littlelogistics:tug_route"
+					type: "item"
+				}
+				{
+					id: "296A0C4209A9E5DA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "68553B9B86FD6BC0"
+				item: "littlelogistics:tug"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -7.5d
+		}
+		{
+			id: "31172EBAE3119AE8"
+			rewards: [
+				{
+					id: "0964666A3A278058"
+					item: "supplementaries:soap"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1662E3E0A3AAE150"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					id: "2F1903EE199FDD4D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "00B9F2014A954499"
+				item: {
+					Count: 1b
+					id: "supplementaries:bubble_blower"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: -7.5d
+		}
+		{
+			description: ["The Gift of MUSIC!"]
+			id: "4D26F61B49E975E0"
+			rewards: [
+				{
+					id: "330EA270A6F03A77"
+					item: "moa_decor_art:maquinadediscos"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "55F5354D3D58E0AB"
+					table_id: 7605147829610934964L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24545D22B4572DED"
+					table_id: 7185959090886023032L
+					type: "random"
+				}
+				{
+					id: "13D23AF83057AF62"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "77BA0518E9ADC644"
+				item: "minecraft:jukebox"
+				type: "item"
+			}]
+			x: -14.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"450F722BE36BB8A3"
+				"2543249F915DE682"
+			]
+			id: "499589FC35DC8C6F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "171D46C0DFE728C0"
+					table_id: 7605147829610934964L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "714A9EE06ACD0BFD"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					id: "588471660A2A6A79"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 32L
+				id: "2506EBBC9E5C20C8"
+				item: { Count: 32b, id: "minepop:randombox" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7713D41BB5742E86"]
+			description: ["36, counted them myself!"]
+			id: "0B8F01C40E2D23BB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3906395113F8829C"
+					table_id: 7605147829610934964L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4ED33E38A0CEF9D1"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					id: "2EA43499C56322C1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5F120975933A1896"
+				item: "christmasfestivity:christmas_present_green"
+				type: "item"
+			}]
+			title: "How many presents are there?"
+			x: -12.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0B8F01C40E2D23BB"]
+			description: ["Last Year, last year I had 37!"]
+			id: "793E250CB8D9F79C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36B1A6DC51ED8F9E"
+					table_id: 7605147829610934964L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F2AAF8A771F897F"
+					table_id: 3485001548526207895L
+					type: "loot"
+				}
+				{
+					id: "18CDE1402AA47FD4"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3461C2DC3B67AF0D"
+				item: "christmasfestivity:christmas_present_short_purple"
+				type: "item"
+			}]
+			title: "36!"
+			x: -11.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["793E250CB8D9F79C"]
+			description: ["And then you'll have 38."]
+			id: "2927FB05D936FDAC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "488BAC57A5DDA069"
+					table_id: 7605147829610934964L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6365863B091850AF"
+					table_id: 7621915700776720315L
+					type: "loot"
+				}
+				{
+					id: "03605D6193429D8D"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "0AFCCFDD36B1216E"
+				item: "christmasfestivity:christmas_present_tall_cyan"
+				type: "item"
+			}]
+			title: "Tell you what, we'll get you 2 new presents"
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2927FB05D936FDAC"]
+			id: "4723D77529D18797"
+			rewards: [
+				{
+					count: 64
+					id: "03A4EB976B527760"
+					item: "moa_decor_holidays:gema_festividades"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AFA16F0A2029F2B"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					id: "5379CDF66577D102"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "349672C9999B2898"
+				item: "moa_decor_holidays:regalo_rojo"
+				type: "item"
+			}]
+			title: "So many presents!"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			description: ["Maybe setting up a specific station to get these made will help with quests....and will collecting them all!"]
+			id: "2543249F915DE682"
+			rewards: [
+				{
+					count: 8
+					id: "39B7CC8865413EB4"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0D2E3FDAAB5078E1"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "359889E6EDAF9542"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "3562ECD7794685D1"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			description: ["If you have some extras, you can submit for XP. This will &oconsume&r the items. Think of it as sending them off to a distributer...."]
+			id: "7A0AC1189971A80D"
+			optional: true
+			rewards: [{
+				id: "5049AEE4F35BB048"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "heart"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "59CF3087FC15DBEC"
+				item: { Count: 32b, id: "minepop:randombox" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -6.0d
+		}
+	]
+	title: "Automate the Toys"
+}

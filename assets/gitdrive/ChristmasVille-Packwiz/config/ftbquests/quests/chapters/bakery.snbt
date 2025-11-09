@@ -1,0 +1,624 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "bakery"
+	group: "76FC92DD5A73B827"
+	icon: "bakery:baker_station"
+	id: "1F0869FBF3C80C11"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Time to get baking!"]
+			id: "4CA3FF243552632B"
+			rewards: [
+				{
+					count: 64
+					id: "59FED79E850129DA"
+					item: "minecraft:bricks"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F60AAC50AC3E9A2"
+					table_id: 7185959090886023032L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "1247FBA6BE7DC8FF"
+					item: "bakery:strawberry_seeds"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "10D2BE0A20B44457"
+					item: "bakery:oat_seeds"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5B048AC8261B7B2A"
+				item: "bakery:brick_stove"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			id: "4BF5E350E7E7D0C6"
+			rewards: [
+				{
+					count: 16
+					id: "1724D75AE67D5919"
+					item: "bakery:jar"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5536F3A66B974B3B"
+					table_id: 7185959090886023032L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "32235D33D5E21C4B"
+					item: "bakery:small_cooking_pot"
+					type: "item"
+				}
+				{
+					id: "3819E6C0E20A3954"
+					item: {
+						Count: 1b
+						id: "bakery:bread_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "548769C37C9982A1"
+					item: {
+						Count: 1b
+						id: "bakery:rolling_pin"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Tools of the Trade"
+			x: -9.5d
+			y: -6.0d
+		}
+		{
+			id: "11EA1E1A7574E1BA"
+			rewards: [{
+				count: 4
+				id: "5851490E5F45EA14"
+				item: "bakery:brick_counter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FD24686EADF0435"
+				item: "bakery:kitchen_sink"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.0d
+		}
+		{
+			id: "29CFB849F8FACCEA"
+			rewards: [
+				{
+					id: "674B19F1E2DB3C96"
+					item: "bakery:cake_stand"
+					type: "item"
+				}
+				{
+					id: "2CE8AC15CE025FB8"
+					item: "bakery:breadbox"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "649C7EDCD076AA6A"
+					table_id: 7185959090886023032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4B3FF91D640D1066"
+				item: "bakery:baker_station"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"4CA3FF243552632B"
+				"4BF5E350E7E7D0C6"
+				"29CFB849F8FACCEA"
+				"11EA1E1A7574E1BA"
+			]
+			description: ["Is it a creamy spoonable dessert? Is it a cake? Is it just something to eat after a meal? No one really knows..."]
+			id: "6151B390F4D8BBC8"
+			rewards: [
+				{
+					count: 8
+					id: "3F55DFC735BED6AC"
+					item: "bakery:iron_table"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2C55FE459D00A281"
+					item: "bakery:iron_chair"
+					type: "item"
+				}
+				{
+					id: "0B0C6D0FCE1BC770"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "13B1026F5A503999"
+				item: { Count: 8b, id: "bakery:pudding" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			description: ["Life is good, eat the cake too!"]
+			id: "08C2C923ED0C122B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "74905CDED2394502"
+					table_id: 395112052068349056L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3CB80176FCE11BD5"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					id: "17606EC1168C4B79"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				icon: "minecraft:cake"
+				id: "149459AA359AF5F0"
+				stat: "minecraft:eat_cake_slice"
+				title: "A good Baker needs to taste as they go"
+				type: "stat"
+				value: 16
+			}]
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			description: ["Let's put some cakes out on display so we can shoppers to come and eat!"]
+			id: "510D3EAEBF6660D7"
+			rewards: [
+				{
+					id: "23192BB60E08E84A"
+					item: "placeable_food:fr"
+					type: "item"
+				}
+				{
+					id: "687C5BE9EB541D03"
+					item: "simplehats:christmascakehat"
+					type: "item"
+				}
+				{
+					id: "68D88342A32B9293"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "4A5C06A2DB795028"
+					item: "placeable_food:rv"
+					type: "item"
+				}
+				{
+					id: "516BB7A181FFC253"
+					item: "placeable_food:cr"
+					type: "item"
+				}
+				{
+					id: "3361C13CF72ECF54"
+					item: "placeable_food:h"
+					type: "item"
+				}
+			]
+			title: "Let them eat cake!"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			description: ["May want to look into the &nrivers of chocolate&r you've been working on to fill these up automatically! &6Pie crust&r can be made in a &nmixer&r with wheat flour and milk. It can then be filled with &6chocolate&r from a &nspout&r."]
+			id: "19948BA4FE520748"
+			rewards: [
+				{
+					id: "48088AB024611BED"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4DAC75BF8D07EDA2"
+					table_id: 2015378344854094576L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "6F8B3C2F6C01A7E7"
+				item: { Count: 16b, id: "farmersdelight:chocolate_pie" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			description: ["There are so many options. A few that you can automate if you'd like (and you will need to for Santa's secret supply) but it seems there are some that should be made by hand!"]
+			id: "36D12CE6DBA1C9F6"
+			rewards: [
+				{
+					count: 8
+					id: "6A58CF7E9C46085A"
+					item: "maidensmerrymaking:mint_seeds"
+					type: "item"
+				}
+				{
+					id: "00DFD7BB35BB2BE2"
+					item: "create_confectionery:little_gingerbread_man_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "3B087029BF0A57EA"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "61C7168870368ED6"
+				title: "Cookies For Santa and Friends"
+				type: "checkmark"
+			}]
+			x: -3.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["36D12CE6DBA1C9F6"]
+			id: "1486779AF51F800E"
+			rewards: [{
+				id: "1F23E9D28880297E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "6CEE78529F451A69"
+				item: { Count: 16b, id: "minecraft:cookie" }
+				type: "item"
+			}]
+			title: "OG cookies!"
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36D12CE6DBA1C9F6"]
+			description: ["Now you have the dough, make some patterned cookies of your choice"]
+			id: "6D49B4A79734D2DC"
+			rewards: [
+				{
+					count: 16
+					id: "3173AC8BFB8CF770"
+					item: "maidensmerrymaking:icing"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "24763D6232FF3192"
+					item: "minecraft:green_dye"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3F8C8C36329D5A40"
+					item: "minecraft:red_dye"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "651E5D89D7AA78A2"
+					item: "minecraft:white_dye"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "60E8FD38FCD625A0"
+				item: { Count: 16b, id: "maidensmerrymaking:cookie_dough" }
+				type: "item"
+			}]
+			title: "Sugar Cookies!"
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36D12CE6DBA1C9F6"]
+			description: ["They can be!"]
+			id: "64BFECE6AED28F5E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2CB8A7EC84ACBC35"
+					table_id: 395112052068349056L
+					type: "random"
+				}
+				{
+					id: "38E5BFDCC9B3F4FF"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "55934894B9EB28C1"
+					item: { Count: 8b, id: "christmasfestivity:christmas_reindeer_biscuits" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "5505EEA876CA6703"
+					item: { Count: 8b, id: "christmasfestivity:biscuits_snowman" }
+					type: "item"
+				}
+			]
+			title: "Biscuits are cookies?"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36D12CE6DBA1C9F6"]
+			description: ["Maybe they're healthier since there's fruit?"]
+			id: "4566810B7D89466C"
+			rewards: [{
+				id: "62101BF535A56949"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				count: 16L
+				id: "664277D403B7AC34"
+				item: { Count: 16b, id: "farmersdelight:sweet_berry_cookie" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36D12CE6DBA1C9F6"]
+			description: ["Maybe you'll find a favorite?"]
+			id: "6AA8D0313FDC50FB"
+			rewards: [
+				{
+					id: "6E011335626C8915"
+					item: "moa_decor_holidays:p_galleta_jengibre"
+					type: "item"
+				}
+				{
+					id: "072CC032CFB42349"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "49A0DAA0B45ADBC5"
+					item: "snowyspirit:ginger"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2230D3F88E20AC83"
+					item: { Count: 16b, id: "maidensmerrymaking:ginger_root" }
+					type: "item"
+				}
+			]
+			title: "Ginger everything!"
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6AA8D0313FDC50FB"]
+			id: "57025C90B69A6B4B"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2FD4CCF7324CD35E"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58D71DC30FDF3A92"
+					table_id: 5957533081791779248L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "33C3A303AA374F7D"
+				item: { Count: 16b, id: "maidensmerrymaking:gingerbread_cookie" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AA8D0313FDC50FB"]
+			description: ["Yes, you may already have these. But just in case you needed to make more!"]
+			id: "38D0FE88F366F257"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5BF8AB700F844A88"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68D04F169A67B2ED"
+					table_id: 7621915700776720315L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "44FDB768647C0B2F"
+				item: { Count: 16b, id: "festive_delight:gingerbread_man" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AA8D0313FDC50FB"]
+			id: "1F9A87C4CCE45DFA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6827E56A0F05093A"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "72BF517ABE07A8F3"
+					table_id: 2015378344854094576L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "555880807229FBC7"
+				item: { Count: 16b, id: "christmasfestivity:gingerbread_man" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6AA8D0313FDC50FB"]
+			description: ["There is another quest to automate these which should help."]
+			id: "29A1931F56580140"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "49C7586B4C86828F"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "30873D2514EF0B44"
+					table_id: 7621915700776720315L
+					type: "random"
+				}
+				{
+					id: "74995199AC1C7FF7"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "686CE331478BFEEE"
+				item: { Count: 16b, id: "create_confectionery:gingerbread_man" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"1F9A87C4CCE45DFA"
+				"57025C90B69A6B4B"
+				"29A1931F56580140"
+				"38D0FE88F366F257"
+				"6E1065BD586C56EE"
+			]
+			description: ["Make a gingerbread house? Well the little one looks great with all of the cookies we've been making. What about a bigger one?"]
+			id: "5B41F446EF24766E"
+			rewards: [
+				{
+					id: "19BBED01DBD49C1C"
+					type: "xp"
+					xp: 1000
+				}
+				{
+					auto: "invisible"
+					icon: "maidensmerrymaking:mantel_deco_1"
+					id: "142660B1B78E1DFD"
+					ignore_reward_blocking: true
+					stage: "Gingerbread"
+					title: "The Gingerbread Era"
+					type: "gamestage"
+				}
+			]
+			tasks: [{
+				id: "341CF50B775FF496"
+				item: "maidensmerrymaking:mantel_deco_1"
+				type: "item"
+			}]
+			title: "Gingerbread....looks like it's structurally sound!"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6AA8D0313FDC50FB"]
+			id: "6E1065BD586C56EE"
+			rewards: [
+				{
+					id: "3941935F75462909"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CA4E281F3BBAAD9"
+					table_id: 7621915700776720315L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "54C1591259F02C41"
+				item: { Count: 16b, id: "snowyspirit:gingerbread_cookie" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+	]
+	title: "Bakery"
+}

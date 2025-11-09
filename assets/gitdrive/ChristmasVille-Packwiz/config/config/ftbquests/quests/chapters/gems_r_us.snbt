@@ -1,0 +1,423 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gems_r_us"
+	group: "3522D2306E2C37B2"
+	icon: "gemsnjewels:ruby_ore_block"
+	id: "664E1C96E87A18A8"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "74AAE227BFD00771"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "35A6D6884E781847"
+				table_id: 5007663881364539184L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "0B9337751CCA3C09"
+				title: "Gems, gems are good!"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			id: "3385C5FDF0B859DF"
+			rewards: [{
+				id: "1F89866271F2492E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "024408C4BD725013"
+				item: "gemsnjewels:pale_diamond"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			id: "0E226E7B41938E99"
+			rewards: [{
+				id: "2A568B549C442FB2"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "383620AD1BD3C29B"
+				item: "gemsnjewels:dusk_emerald"
+				type: "item"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			id: "5510AB5893C6E879"
+			rewards: [{
+				id: "5964AC69270C63C5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "44025EA806849281"
+				item: "gemsnjewels:ruby"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			id: "6E62CF8F70FC7CC6"
+			rewards: [{
+				id: "24FAC8AA66B3208C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5656B9972694882D"
+				item: "gemsnjewels:sapphire"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			id: "354695A45C423E21"
+			rewards: [{
+				id: "50A4FDB1AFF3CDFB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "562ACDD5B7DF15A8"
+				item: "gemsnjewels:sable_amethyst"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.0d
+		}
+		{
+			id: "59E8822EA7532C36"
+			rewards: [{
+				id: "2BE6CD95C858B8CB"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "52B4A136AFAF619E"
+				item: "gemsnjewels:opal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			id: "3DEC9BB468529DCC"
+			rewards: [{
+				id: "7CD8B90A04BEAAC5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2FF5EA7DE04E359D"
+				item: "gemsnjewels:garnet"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			id: "49BFB8CAB721FF55"
+			rewards: [{
+				id: "1BC9037606C6D9CC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "235493979164AA52"
+				item: "gemsnjewels:topaz"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "0A57FB8A950D2EAC"
+			rewards: [{
+				id: "76BA826ED8C36D19"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "670C460A7BED0FAE"
+				item: "gemsnjewels:peridot"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			id: "71A963DB3C6FE4DF"
+			rewards: [{
+				id: "52BE63FF1D5C55D6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1235A6BB9EB1E471"
+				item: "gemsnjewels:aquamarine"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.0d
+		}
+		{
+			id: "25BD2174F5EED79E"
+			rewards: [{
+				id: "09108A0F29C32CCF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "35C690D47B0B274A"
+				item: "gemsnjewels:zircon"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			id: "51667AF1F37CA063"
+			rewards: [{
+				id: "507AC6295AB4DD2B"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1F8C080C2582A7D5"
+				item: "gemsnjewels:alexandrite"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			id: "4D12A4FDD9FA80BF"
+			rewards: [{
+				id: "28651FE60EEC7E92"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "11C18AFAFFD93A4A"
+				item: "gemsnjewels:tanzanite"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			id: "487D6666F74D772F"
+			tasks: [{
+				id: "49EA3309399EFAF5"
+				item: "gemsnjewels:tourmaline"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "65A6D5BBED5C727F"
+			rewards: [{
+				id: "5D5FD15A33DFD725"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "011962BF4AD3C8FA"
+				item: "gemsnjewels:spinel"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			id: "47DFB0C6D43103C5"
+			rewards: [{
+				id: "6242AA1C8ABFD2B9"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5EE5BC64DA5E6C9B"
+				item: "gemsnjewels:black_opal"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			id: "6D7489EEAE752D31"
+			rewards: [{
+				id: "48059BB7BA5E7845"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "778A058607F35892"
+				item: "gemsnjewels:citrine"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 1.0d
+		}
+		{
+			id: "2490DA7CA82F1436"
+			rewards: [{
+				id: "31C6040644F75DA1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "32FAF6B890A8EE4B"
+				item: "gemsnjewels:morganite"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			id: "7D8AC158D7067852"
+			rewards: [{
+				id: "5A2D4D9286AAE542"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "647F9DF0E28825F1"
+				item: "gemsnjewels:ametrine"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			id: "02F9E5AD690C0051"
+			rewards: [{
+				id: "17C5569F4246BDC0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "023BB6C560C5FA8F"
+				item: "gemsnjewels:iolite"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.0d
+		}
+		{
+			id: "15186C664C10D4A9"
+			rewards: [{
+				id: "6B9B2497799D7114"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "2760D735B53B0381"
+				item: "gemsnjewels:kunzite"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			id: "7FC2CE4A0DBCCE95"
+			rewards: [{
+				id: "2A95C5B44FFF7B6C"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "29B1A6DE2F84B97F"
+				item: "gemsnjewels:jade"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"35C690D47B0B274A"
+				"49EA3309399EFAF5"
+				"235493979164AA52"
+				"2FF5EA7DE04E359D"
+				"4D12A4FDD9FA80BF"
+				"65A6D5BBED5C727F"
+				"5510AB5893C6E879"
+				"354695A45C423E21"
+				"6E62CF8F70FC7CC6"
+				"7FC2CE4A0DBCCE95"
+				"51667AF1F37CA063"
+				"7D8AC158D7067852"
+				"02F9E5AD690C0051"
+				"15186C664C10D4A9"
+				"1235A6BB9EB1E471"
+				"383620AD1BD3C29B"
+				"5EE5BC64DA5E6C9B"
+				"778A058607F35892"
+				"32FAF6B890A8EE4B"
+				"59E8822EA7532C36"
+				"024408C4BD725013"
+				"670C460A7BED0FAE"
+				"71A963DB3C6FE4DF"
+				"0E226E7B41938E99"
+				"2490DA7CA82F1436"
+				"25BD2174F5EED79E"
+				"0A57FB8A950D2EAC"
+				"6D7489EEAE752D31"
+				"3385C5FDF0B859DF"
+				"49BFB8CAB721FF55"
+				"3DEC9BB468529DCC"
+				"47DFB0C6D43103C5"
+			]
+			id: "39B3F982856E6F76"
+			rewards: [
+				{
+					count: 64
+					id: "460DCD3E6F732673"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C19CFED4383FE7D"
+					table_id: 3485001548526207895L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "65C5AC6CD80A14E0"
+					table_id: 7621915700776720315L
+					type: "random"
+				}
+				{
+					id: "34F515923AD67499"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			tasks: [{
+				id: "1E5D971E81B87318"
+				title: "Thanos has nothing on you"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+	]
+	title: "Gems R Us"
+}

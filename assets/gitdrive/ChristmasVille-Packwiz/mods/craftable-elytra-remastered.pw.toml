@@ -1,0 +1,13 @@
+name = "Craftable Elytra [Remastered]"
+filename = "Craftable_Elytra[REMASTERED][2.2]1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1d6d5851f3a607aa7a237dd8b698ea2adbad9380"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4706094
+project-id = 479804

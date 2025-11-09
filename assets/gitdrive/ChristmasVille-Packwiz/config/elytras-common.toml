@@ -1,0 +1,21 @@
+
+# Enable or disable elytra skins
+# Settings any of these to 'false' will make the elytras uncraftable
+[elytras]
+	phantom_elytra = true
+	vex_elytra = true
+	allay_elytra = true
+	dragon_elytra = true
+	parrot_elytra = true
+	bat_elytra = true
+	creeper_elytra = true
+
+# Enable or disable other items
+# Setting any of these to 'false' will make the item unobtainable
+# Note that the items will still be registered even if they are disabled here
+[items]
+	vex_wing = true
+	allay_wing = true
+	parrot_feather = true
+	bat_wing = true
+

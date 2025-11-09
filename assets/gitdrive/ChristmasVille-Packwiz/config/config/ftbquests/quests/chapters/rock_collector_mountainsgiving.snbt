@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rock_collector_mountainsgiving"
+	group: "3522D2306E2C37B2"
+	icon: "decorative_blocks:rocky_dirt"
+	id: "7E2660E3E4A8D267"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["let's Find all the good stuff!"]
+			icon: "decorative_blocks:rocky_dirt"
+			id: "4E81CC9131703DAC"
+			rewards: [{
+				id: "371949F492D81A6E"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B419B5764A5E98B"
+				title: "Rocks are cool!"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			id: "4F870AF44F7EE4C3"
+			rewards: [{
+				count: 32
+				id: "101751E5386D37E0"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "6BA55551D03D2021"
+				item: { Count: 64b, id: "minecraft:cobblestone" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "4EA9EF7664AD1B24"
+			rewards: [{
+				id: "2003060802CD5BD4"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "40B348E4CADC1AEC"
+				item: { Count: 64b, id: "minecraft:granite" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "4F070C1365F33F02"
+			rewards: [{
+				count: 16
+				id: "33846AA422ACFF40"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "1DA6164C272CA461"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.0d
+		}
+		{
+			id: "799E36F12212F2F7"
+			rewards: [{
+				count: 16
+				id: "18FE16F787317F26"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "182451586FBC19D6"
+				item: "minecraft:diorite"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			description: ["You don't have to use this for a pick.  But you can!"]
+			id: "37DC55FD9361AB84"
+			rewards: [
+				{
+					count: 3
+					id: "6B7694BEC3BA6AA6"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5A343A4D9AB049B2"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 64L
+				id: "0DB9C97FF12C716F"
+				item: { Count: 64b, id: "minecraft:cobbled_deepslate" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"37DC55FD9361AB84"
+				"4F070C1365F33F02"
+				"4EA9EF7664AD1B24"
+				"799E36F12212F2F7"
+				"4F870AF44F7EE4C3"
+				"4E81CC9131703DAC"
+			]
+			hide_dependency_lines: false
+			id: "234AE5C85FBE5B69"
+			rewards: [{
+				count: 64
+				id: "577F659DEB9447B3"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31D773F2C9A0B189"
+				title: "Expert Rockhound"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+	]
+	title: "Rock Collector"
+}

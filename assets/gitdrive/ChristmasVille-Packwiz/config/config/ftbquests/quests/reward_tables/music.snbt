@@ -1,0 +1,15 @@
+{
+	id: "698AE9A8404AF2B4"
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "more_music_discs:christmas_just_for_you" }
+		{ item: "create_confectionery:the_bright_side" }
+		{ item: "maidensmerrymaking:christmas_music_disc_2" }
+		{ item: "maidensmerrymaking:christmas_music_disc" }
+		{ item: "christmasfestivity:disc_marrychristmas" }
+		{ item: "christmasfestivity:disc_jinglebells" }
+		{ item: "more_music_discs:christmas" }
+	]
+	title: "Music"
+}

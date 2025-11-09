@@ -1,0 +1,13 @@
+name = "More Music Discs (Records)"
+filename = "More Music Discs-1.20.1-Trot.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4cb5b840d4620cfb6baf6050b2a53bfbfa1fde52"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4848570
+project-id = 658674

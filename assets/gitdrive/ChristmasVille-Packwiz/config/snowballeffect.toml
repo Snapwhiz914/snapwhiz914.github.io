@@ -1,0 +1,25 @@
+
+#Igloof configurable values
+[Igloof]
+	#If the igloof is older than this value, the owner will not be able to order it to sit anymore
+	#Range: > 1
+	igloof_unsittable_age = 30
+	#To calculate it's size, this number ^ age is used.
+	#Range: 1.0 ~ 1.7976931348623157E308
+	igloof_growth_constant = 1.08
+	#The maximum age the igloof can grow to
+	#Range: > 1
+	igloof_max_age = 40
+	#Used to calculate the maximum distance the igloof follows a player
+	#Range: > 1
+	igloof_follow_factor = 30
+	#The cooldown in ticks until a magic torch can be used to remove a layer from the Igloof
+	#Range: > 1
+	igloof_melt_ticks = 6000
+	#The cooldown in ticks until the igloof can eat snow from the ground in order to grow again
+	#Range: > 1
+	igloof_eat_ticks = 7200
+	#The age at which the Igloof starts breaking blocks. The blocks in question are configurable using the 'igloof_breakables' tag
+	#Range: > 1
+	igloof_age_break = 25
+

@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rivers_of_chocolate"
+	group: "00AC2BF048EC01A9"
+	icon: "create_confectionery:ruby_chocolate_bucket"
+	id: "491B900F87E2281E"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["The journey of chocolate rivers and pools starts with finding coco!"]
+			id: "0977CDFBE2573E49"
+			rewards: [
+				{
+					count: 64
+					id: "1DC946E5B42CA94D"
+					item: "minecraft:cocoa_beans"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6645C0B7D87D647A"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "294534F593F91F71"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "01EBE1B2604E0E81"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "5A41C78329685123"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			title: "Welcome to the world of pure imagination"
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0977CDFBE2573E49"]
+			id: "6196CE8C78A2A25F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "61815FB8CFFAC049"
+					table_id: 6000600311908831296L
+					type: "loot"
+				}
+				{
+					id: "291CC77A3B07EB8A"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "create_confectionery:black_chocolate"
+				id: "5B7C73B0B4779F4A"
+				type: "fluid"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0977CDFBE2573E49"]
+			id: "03D97DE7F2839967"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "265339508D8D8B23"
+					table_id: 6000600311908831296L
+					type: "loot"
+				}
+				{
+					count: 16
+					id: "02393D1F4657E1A6"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "create_confectionery:white_chocolate"
+				id: "58F6064CF43C6E5A"
+				type: "fluid"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0977CDFBE2573E49"]
+			id: "69A1AEDBCF4CC5D1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3CAA4F2C90484F68"
+					table_id: 6000600311908831296L
+					type: "loot"
+				}
+				{
+					id: "597BD93DA6F20161"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "167A76E300DE48B9"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "create_confectionery:ruby_chocolate"
+				id: "5FFC9BB8144CC7D7"
+				type: "fluid"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0977CDFBE2573E49"]
+			id: "66632EF733414818"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C1A2E9FD85B64DE"
+				table_id: 6000600311908831296L
+				type: "loot"
+			}]
+			tasks: [{
+				amount: 1000L
+				fluid: "create_confectionery:hot_chocolate"
+				id: "69262C2DF562A24A"
+				type: "fluid"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0977CDFBE2573E49"]
+			id: "146FB05F03511189"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "54B89FE9A04C62BE"
+					table_id: 6000600311908831296L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					icon: "create_confectionery:black_chocolate_bucket"
+					id: "522D262A60A074B9"
+					ignore_reward_blocking: true
+					stage: "Chocolate"
+					title: "Chocolate has come to Christmasville"
+					type: "gamestage"
+				}
+				{
+					id: "447C9185D55661D1"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "35DB0F49F9088102"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				amount: 1000L
+				fluid: "create:chocolate"
+				id: "486C977DB175FF1C"
+				type: "fluid"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "34D869ECA9E8B0FA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B2291433CFB9FB4"
+					table_id: 7185959090886023032L
+					type: "choice"
+				}
+				{
+					id: "5953376BC0C859FB"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "4194DE291EA98D8E"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "77BE25015E072A7C"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "65478E9EEC0BF91A"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [
+				{
+					id: "51FE571054EF5FC7"
+					item: "create:bar_of_chocolate"
+					type: "item"
+				}
+				{
+					id: "214F181AC50FB565"
+					item: "create_confectionery:bar_of_black_chocolate"
+					type: "item"
+				}
+				{
+					id: "43EC07A6061D3B24"
+					item: "create_confectionery:bar_of_white_chocolate"
+					type: "item"
+				}
+				{
+					id: "0F455E9E7D08AFE7"
+					item: "create_confectionery:bar_of_ruby_chocolate"
+					type: "item"
+				}
+				{
+					icon: "create_confectionery:black_chocolate_bucket"
+					id: "0427E85E3E9F722C"
+					stage: "Chocolate"
+					title: "Chocolate has reached Christmasville"
+					type: "gamestage"
+				}
+			]
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6196CE8C78A2A25F"]
+			description: ["Yum! These are for Mrs. Claus! "]
+			id: "1C7BB17FB0833B24"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "25C8E54728330EA7"
+					table_id: 6000600311908831296L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7696A9B34BB8214D"
+					table_id: 395112052068349056L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 16L
+				id: "5D27EF5028DB1314"
+				item: "create_confectionery:black_chocolate_glazed_berries"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"34D869ECA9E8B0FA"
+				"54EB6A323367A0FF"
+			]
+			description: ["Could have been any flavor candy. Explore what the different types of chocolate can add for buffs!"]
+			id: "537051B34954DB79"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56B98BE04980ADAC"
+					table_id: 3485001548526207895L
+					type: "loot"
+				}
+				{
+					id: "273812AB28C8A3DA"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "181BB487CA759CCF"
+					table_id: 3375955481088431018L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "15A2562A1CAE8CAE"
+				item: "create_confectionery:ruby_chocolate_candy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			description: ["Carmel is &6sugar&r and &6water&r heated and mixed. But to make it into a bar...and then cover in chocolate? It really elevates the yumminess."]
+			id: "54EB6A323367A0FF"
+			rewards: [
+				{
+					id: "7BD5B3A301FDCE8C"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "36AF848982FFCA7F"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "72677D6ADA16A6C2"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "0FEA60BB43B09CE1"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "7C546ECE194C68F0"
+				item: "create_confectionery:bar_of_caramel"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			description: ["Can always trade some extras in for XP. This will &oconsume&r the items."]
+			id: "542405D9DC5E7DAF"
+			optional: true
+			rewards: [{
+				id: "2C5C38E2DFF8AF5B"
+				type: "xp"
+				xp: 200
+			}]
+			shape: "heart"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "2A89273EC3CF84AF"
+				item: { Count: 32b, id: "create_confectionery:black_chocolate_glazed_berries" }
+				optional_task: true
+				type: "item"
+			}]
+			title: "Extra treats? yes Please!"
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			description: ["You can repeatedly turn in this quest for XP. Items will be &oconsumed.&r"]
+			id: "39663A8C3291339C"
+			optional: true
+			rewards: [{
+				id: "234E36003CD0239B"
+				type: "xp"
+				xp: 500
+			}]
+			shape: "heart"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "09CB05D6DC6D36C1"
+				item: { Count: 32b, id: "create_confectionery:ruby_chocolate_candy_1" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+	]
+	title: "Rivers of Chocolate"
+}

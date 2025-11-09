@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "76FC92DD5A73B827", title: "Christmastime" }
+		{ id: "00AC2BF048EC01A9", title: "Santa's Workshop" }
+		{ id: "3522D2306E2C37B2", title: "Mountainsgiving" }
+	]
+}

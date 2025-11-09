@@ -1,0 +1,13 @@
+{
+	id: "1BF80FED3D0B02F0"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "christmasfestivity:christmas_tree_star_topper_two" }
+		{ item: "maidensmerrymaking:bow_topper" }
+		{ item: "maidensmerrymaking:star_topper" }
+		{ item: "christmasfestivity:christmas_tree_topper" }
+		{ item: "christmasfestivity:christmas_tree_star_topper_one" }
+	]
+	title: "Tree Toppers"
+}

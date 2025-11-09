@@ -1,0 +1,13 @@
+name = "Size Shifting Potions"
+filename = "sizeshiftingpotions-1.7.0-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6516e42a293f776ddd028c6232e55ddc253223b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4648475
+project-id = 447440

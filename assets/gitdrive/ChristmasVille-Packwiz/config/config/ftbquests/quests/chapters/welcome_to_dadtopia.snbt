@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome_to_dadtopia"
+	group: ""
+	icon: "snowyspirit:snow_globe"
+	id: "0CE171CE0285F21B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Welcome. In &6Dadtopia&r, the world is getting ready to celebrate &nChristmas&r. Festive decor and food is all around. Explore and have fun!"]
+			id: "2A2C32AC04ED67BF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4744D17701F43E5B"
+					table_id: 5007663881364539184L
+					type: "choice"
+				}
+				{
+					id: "45171D503EC573F3"
+					item: "comforts:sleeping_bag_red"
+					type: "item"
+				}
+				{
+					id: "5B6FBED2FE4AEACA"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "09BE8194C4055B65"
+				title: "Welcome"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2A2C32AC04ED67BF"]
+			description: ["Use &6waystones&r to get around without delay and create travel points in the world! &6Warp plates&r are a great way to get players around that have not visited the same places you have."]
+			icon: "waystones:waystone"
+			id: "2283BFE8F30CAAF4"
+			rewards: [
+				{
+					id: "41C1B13C9A6AC804"
+					item: {
+						Count: 1b
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "202046CB9B331B93"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "0BBA1A2177AF9635"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "5C1D5C9E7F0960CA"
+				title: "Waystones"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2A2C32AC04ED67BF"]
+			description: [
+				"&6Tempads&r are a easy way to travel without extra materials invested in travel points. Just be aware 3 minutes can seem like a long time when you're out at night surrounded by creepers! "
+				""
+				"If friends are out with you and die you can &bRevive&r them! This helps with the trouble of them getting back to their stuff."
+			]
+			id: "572A2832DA822C02"
+			rewards: [
+				{
+					id: "1961A89E4218EB8B"
+					type: "xp"
+					xp: 200
+				}
+				{
+					exclude_from_claim_all: true
+					id: "583D698AF5E2ABE4"
+					table_id: 3238129434968736494L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "64F3F36089F2C0A1"
+				item: "tempad:tempad"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A2C32AC04ED67BF"]
+			description: [
+				"So there are options:"
+				"- &3Storage Drawers&r"
+				"- &6Refined Storage&r"
+				"- &dStorage Racks&r"
+				"- &cEnderChests&r"
+				""
+				"Check them out, each has some good qualities for different situations"
+				"If you end up having too much stuff look into the &eExtractinator&r to recycle some of your extra blocks."
+			]
+			icon: "refinedstorage:1k_storage_block"
+			id: "7C31F9C45BFA97CF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38C8A547B718C0A0"
+					table_id: 5957533081791779248L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "072391EB67CC44C0"
+					table_id: 3238129434968736494L
+					type: "choice"
+				}
+				{
+					id: "4406CB7DEEE6DCFD"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				id: "095373F9A0E01F64"
+				title: "Dad Likes things to be organized..."
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A2C32AC04ED67BF"]
+			description: ["Villagers are powerful and trading can provide an easy and repeatable way to get hard to obtain materials. Vanilla villager set-ups provide the results but take much longer to get up and running. &6Easy Villagers&r should help with that so you can focus on other parts of the game. Nothing is stopping you from turning that villager hall into elves working for Christmas!"]
+			icon: "moa_decor_toys:aldeano"
+			id: "11849CC56FCFC1EA"
+			rewards: [
+				{
+					id: "3E7684F5C44D9DFE"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 3
+					id: "3085E10154E4606C"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "782592A3E7990434"
+					table_id: 7185959090886023032L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "61D848E62F3E5FDF"
+				title: "Villagers"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2A2C32AC04ED67BF"]
+			description: [
+				"Setting up farms can be fun but sometimes you have already made an enderman farm, six times. There are many options but you should know about:"
+				"- &3Easy Mob Farms&r&2"
+				"- &dBotany pots&r"
+				"Feel Free to use them to supplement other vanilla farms you make or to bypass the grind and move onto other contraptions."
+			]
+			icon: "easy_mob_farm:netherite_bee_hive_farm"
+			id: "5161562BD748C524"
+			rewards: [
+				{
+					id: "58F5A584D708610D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2DED194BE3AC6307"
+					table_id: 6000600311908831296L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "21570B41887DA099"
+				title: "Farms"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2A2C32AC04ED67BF"]
+			description: [
+				"There are a few ways to power your world:"
+				"- &6Powah&r"
+				"- &3Mekanism&r"
+				"- &dCreate&r"
+				""
+				"And there are &clasers.&r Mostly to make cool bridges, but you should check them out for fun."
+			]
+			icon: "powah:energizing_rod_niotic"
+			id: "6C0FCCB1A7459DC7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56F4B654AC659454"
+					table_id: 7621915700776720315L
+					type: "choice"
+				}
+				{
+					id: "1611C1607F7E60F2"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "71A0ED32353AF99D"
+				title: "Power...or POWAH!"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5161562BD748C524"]
+			description: ["Didn't know where to put this but you probably should &amake some slime farm&r- it's used in a few things and one that not many people think to get going right away. Or at least I didn't think to get going right away."]
+			icon: "minecraft:slime_ball"
+			id: "5FFF01C6FC2372D0"
+			rewards: [{
+				id: "7042E489F2078C17"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3AE299C8BC145AB1"
+				title: "Slime is Good"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: ["When you die...I mean IF...a random &6origin&r will be assigned. Look at your &nkeybinds&r to see how to check what your origin is so you can play to your strengths! "]
+			icon: "moa_decor_toys:gatojellie"
+			id: "3D4284828E70A08E"
+			rewards: [{
+				id: "79035F6D2C2FADF6"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "65292C1E837B7CC5"
+				title: "Origins"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			description: ["&6The Lost Caste&r is somewhere in the world. It is a &nstronghold&r of Pillagers protecting the &nEnd portal&r and should not be entered in lightly."]
+			icon: "minecraft:end_portal_frame"
+			id: "10FF219FA2F6E1C5"
+			rewards: [{
+				id: "2E882AD8EEF51211"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "68E1F0297420EF97"
+				title: "Stronghold"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			description: ["Quests in hearts are repeatable. They consume the items that you need to complete the quests but can be turned in again and again to get XP. This should help with abilities that are locked due to XP drought. "]
+			id: "0189B04E790D29EF"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "6A1BF73E3163FDC7"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			shape: "heart"
+			tasks: [{
+				id: "660C3726E8A68C42"
+				title: "Repeatable Quests"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+	]
+	title: "Welcome to Dadtopia"
+}

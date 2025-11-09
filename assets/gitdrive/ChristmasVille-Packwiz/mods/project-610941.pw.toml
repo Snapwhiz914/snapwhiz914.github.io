@@ -1,0 +1,13 @@
+name = "project-610941"
+filename = "snowtreasures-2.2.0-1.20-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5ab8b5281148b5cd800a16bedc0712b0d7248846"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4749950
+project-id = 610941
