@@ -2076,6 +2076,10 @@ hash = "f24655a5f97a8297a0d2df9b6163931da8a3f31a775d93d9744d89674ac35786"
 metafile = true
 
 [[files]]
+file = "mods/morenuggets-1.21-0.1.jar"
+hash = "524cb9dafb650f1efeb6ad20f709aab3b5b97dc38e77dc7fda804924e69dd14b"
+
+[[files]]
 file = "mods/nocube's_create_compact_exp_1.0.3_forge_1.20.1.jar"
 hash = "ea633a20f41caec3f44c17af6d4e7eea722a45a0e65cd4924de1205378e13358"
 
