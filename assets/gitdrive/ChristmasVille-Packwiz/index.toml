@@ -2343,13 +2343,3 @@ metafile = true
 file = "mods/yungs-better-end-island.pw.toml"
 hash = "987d68714955d9fe7342590dc61ba3c1dd8a94c0d0b6e1a9d0ccf5268e385707"
 metafile = true
-
-[[files]]
-file = "resourcepacks/dramatic-skys.pw.toml"
-hash = "3203ee7933d56271067503fd5e68c0d14f128fd11b14bb4b47572dfef1a3bbf3"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-animations.pw.toml"
-hash = "235486ac327f81c801db0973eca9496fd545db9d9f5b3aee306491dcd180fb38"
-metafile = true
