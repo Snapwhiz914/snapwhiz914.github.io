@@ -1965,16 +1965,6 @@ hash = "cc2baab30142f37603eea9f415185d1983886c6e17b0b4b91c815f49c002e070"
 metafile = true
 
 [[files]]
-file = "mods/cozy-home.pw.toml"
-hash = "1230717734851cdc86fef9bb2fc92a55f6a71270ab0405a95d9bf7e2b5aea7ac"
-metafile = true
-
-[[files]]
-file = "mods/create-compact-exp.pw.toml"
-hash = "9cbd5601e113b6276d33c1b2c4375ba8bacf1f90585faa0917dfb4726f2f6fec"
-metafile = true
-
-[[files]]
 file = "mods/create-confectionery.pw.toml"
 hash = "7f98e3461e1319ef01a91a8258aa2d932179d0406280d980b356ddbfbef52213"
 metafile = true
@@ -2002,11 +1992,6 @@ metafile = true
 [[files]]
 file = "mods/d-placeable-food-fabric-forge.pw.toml"
 hash = "e5ac2a4de51774b1015d9e8dc698c018d27341ad2c9fb4ae02182582c6d542b5"
-metafile = true
-
-[[files]]
-file = "mods/displaycase.pw.toml"
-hash = "4d8452835e4d92041c6fadffdcd2bc0e2cdb4ac4e5927cc533ea71ffcc7f7537"
 metafile = true
 
 [[files]]
