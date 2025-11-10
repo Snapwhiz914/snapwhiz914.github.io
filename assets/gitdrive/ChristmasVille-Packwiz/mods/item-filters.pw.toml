@@ -3,8 +3,8 @@ filename = "item-filters-forge-2001.1.0-build.59.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "55a7f032c59489eca96069a7841601de2ff97590"
+hash-format = "sha256"
+hash = "99417b1342ba51ccb9611b17ab01fc1299971aa34e8f9d2a8b3c63df5713eb49"
 mode = "metadata:curseforge"
 
 [update]

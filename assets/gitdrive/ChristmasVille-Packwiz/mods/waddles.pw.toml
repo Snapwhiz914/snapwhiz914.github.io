@@ -3,8 +3,8 @@ filename = "Waddles-1.20.1-0.9.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f226f517ef8fce8b8e97e228ba4d17f0f933172e"
+hash-format = "sha256"
+hash = "28271af919f9bf675abafb7bb84ab4c6b3d0247e073e0b726a7932fb8676abe5"
 mode = "metadata:curseforge"
 
 [update]

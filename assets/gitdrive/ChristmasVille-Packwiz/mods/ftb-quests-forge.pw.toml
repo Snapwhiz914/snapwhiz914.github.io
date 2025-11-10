@@ -3,8 +3,8 @@ filename = "ftb-quests-forge-2001.3.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7ec8133f4bb375e0f0cf7046db60e182aa2d60a3"
+hash-format = "sha256"
+hash = "d1948248253dd0f54b192455151760e65c930cc0755b8a83b5162185b0155018"
 mode = "metadata:curseforge"
 
 [update]

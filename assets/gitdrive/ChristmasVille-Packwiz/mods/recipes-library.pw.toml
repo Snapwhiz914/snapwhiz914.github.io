@@ -3,8 +3,8 @@ filename = "RecipesLibrary-1.20.1-2.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e03b505cc5be2711e0f5c6c0c591b0019a95d226"
+hash-format = "sha256"
+hash = "d0bef24e090b8002f6fbc86c35e0c2c52612ffd853e21e788a9572f466d55ff3"
 mode = "metadata:curseforge"
 
 [update]

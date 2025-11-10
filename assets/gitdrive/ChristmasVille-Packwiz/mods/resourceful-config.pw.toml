@@ -3,8 +3,8 @@ filename = "resourcefulconfig-forge-1.20.1-2.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "2708d4cf085b3b8a1fd0dc6212969fdb65c93457"
+hash-format = "sha256"
+hash = "e1b58924cdaa553b310b386b7c15dcb98f4f98ab8cd2ffa44e997a99d4869456"
 mode = "metadata:curseforge"
 
 [update]

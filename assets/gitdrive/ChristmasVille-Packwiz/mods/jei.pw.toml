@@ -3,8 +3,8 @@ filename = "jei-1.20.1-forge-15.2.0.27.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a565f2e31fc2bbe6f297a4ca25241cbfd704ef6b"
+hash-format = "sha256"
+hash = "43c66b26b541614b168f2d8dc881254dc1f40611e093ed55c7a46299c5c45f49"
 mode = "metadata:curseforge"
 
 [update]

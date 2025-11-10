@@ -3,8 +3,8 @@ filename = "snowballeffect-2.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3b9647df4bfee0f6f226c635d6f62b49d7e5acb3"
+hash-format = "sha256"
+hash = "ace4f6003e7bc9738634445c891b0fe5a727ce1cf189ec01e716ce7bedc7c57a"
 mode = "metadata:curseforge"
 
 [update]

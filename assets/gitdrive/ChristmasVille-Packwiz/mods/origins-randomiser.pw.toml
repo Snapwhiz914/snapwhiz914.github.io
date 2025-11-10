@@ -3,8 +3,8 @@ filename = "origins-randomiser-2.3.1+1.20.1-forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "df98a466b294f16b9e09aef8bfa99bfe037a099f"
+hash-format = "sha256"
+hash = "8aac7d1f1718045247d7f536bb9a3eedf2b5d5a7903408ec191e6897f0c496b4"
 mode = "metadata:curseforge"
 
 [update]

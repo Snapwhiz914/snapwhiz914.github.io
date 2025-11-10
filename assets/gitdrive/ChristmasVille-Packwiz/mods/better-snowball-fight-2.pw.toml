@@ -3,8 +3,8 @@ filename = "better-snowball-fight-1.20.1-3.0.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "49bed4ce4b661caf0ebb5d7f46856218c76d7bb5"
+hash-format = "sha256"
+hash = "b093b1dd8f5998c99b52293eefdbf625034695a2b35707e1241e8cef916cb647"
 mode = "metadata:curseforge"
 
 [update]

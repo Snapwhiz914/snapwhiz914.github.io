@@ -3,8 +3,8 @@ filename = "structure_gel-1.20.1-2.15.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3a5cc923bb25426f978c3542560a10eaa0e77fdc"
+hash-format = "sha256"
+hash = "c997d8ffb48802889ee32562ed92757b87673efb55c0dac554cac322add83b6e"
 mode = "metadata:curseforge"
 
 [update]

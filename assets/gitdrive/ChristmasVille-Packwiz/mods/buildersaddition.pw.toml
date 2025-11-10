@@ -3,8 +3,8 @@ filename = "buildersaddition-1.20.1-20230928a.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a3d968f02a05dd28298ab08e835becc283c7a732"
+hash-format = "sha256"
+hash = "22c6b29645966348e5c8655d212e5e4c903c6ab88b2c8df816e86c1797609131"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "christmasfestivity-1.20.1-1.6.2-forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "e17ac4c31b888d93406039877e7af5566ec2404f"
+hash-format = "sha256"
+hash = "678069b27e8149a2a1eaf445515fa328a1521fac3251209638362933189b2402"
 mode = "metadata:curseforge"
 
 [update]

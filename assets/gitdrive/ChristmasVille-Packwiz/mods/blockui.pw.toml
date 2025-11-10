@@ -3,8 +3,8 @@ filename = "blockui-1.20.1-0.0.98-ALPHA.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "454bd935c2ad9932bd23a0e0a808e0942b64574e"
+hash-format = "sha256"
+hash = "670fbd73eafa059235b85c0f62a2de2ab98e1666d2f28a916c399727c40ebba8"
 mode = "metadata:curseforge"
 
 [update]

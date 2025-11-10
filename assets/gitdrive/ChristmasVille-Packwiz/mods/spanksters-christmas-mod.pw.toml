@@ -3,8 +3,8 @@ filename = "SpankstersChristmasMod[2.0]1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "de2ee8e2ea230bb6ee780b95d95cdea14a67b358"
+hash-format = "sha256"
+hash = "451a8daf740d889664177e332cf11d9bcff581b7047292818a833302ea23a2fc"
 mode = "metadata:curseforge"
 
 [update]

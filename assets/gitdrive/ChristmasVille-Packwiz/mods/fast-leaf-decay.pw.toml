@@ -3,8 +3,8 @@ filename = "FastLeafDecay-31.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "27d5ae02484e0b0c464f9611cedee6337048f638"
+hash-format = "sha256"
+hash = "82d05b4e92d68a38a1648c82dbdc1e69be59b0eddafc7f1024a43d18fc2e60b3"
 mode = "metadata:curseforge"
 
 [update]

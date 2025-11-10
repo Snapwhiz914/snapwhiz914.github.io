@@ -3,8 +3,8 @@ filename = "PuzzlesLib-v8.1.11-1.20.1-Forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6076aa4e430cd29be122bebb5c1e213dd20ed87f"
+hash-format = "sha256"
+hash = "90a0bd6dc16f5ea1c0c9e3455df909a11dba59114bb34e6db4e812825e023d25"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "christmasculinarydesires - 1.0.0 1.20.1 forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "6cbfa0509c400c3c1430aeb7ee761af3c794debc"
+hash-format = "sha256"
+hash = "a5a15e7b218e1c7ce474e220830278bb3890a60208cb124e504e0b492efbc350"
 mode = "metadata:curseforge"
 
 [update]

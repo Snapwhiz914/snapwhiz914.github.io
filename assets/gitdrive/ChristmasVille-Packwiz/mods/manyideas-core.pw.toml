@@ -3,8 +3,8 @@ filename = "ManyIdeasCore-1.20.1-1.4.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "132bb3770464d4af3696e09d23d9a6d3a9ee78ee"
+hash-format = "sha256"
+hash = "723002fef1e7a8f008602e57598efd2d603a07a4b7fa0a4f4574ce03ad340e1c"
 mode = "metadata:curseforge"
 
 [update]

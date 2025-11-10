@@ -3,8 +3,8 @@ filename = "snowtreasures-2.2.0-1.20-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "5ab8b5281148b5cd800a16bedc0712b0d7248846"
+hash-format = "sha256"
+hash = "016eebb6c4a6736de021dce464cdc60cbf88b51b5ec2e568cb629283572a86a6"
 mode = "metadata:curseforge"
 
 [update]

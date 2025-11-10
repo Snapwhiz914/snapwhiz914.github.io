@@ -3,8 +3,8 @@ filename = "iceshards-1.0-7fc4.noarch.fpm.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "78f9bb3503023bd478c56b8b26f46a1f88dbfc00"
+hash-format = "sha256"
+hash = "ff963a9638d715bc66559931ec0a1a7a165fd70f42e6c268ffd469e909058265"
 mode = "metadata:curseforge"
 
 [update]

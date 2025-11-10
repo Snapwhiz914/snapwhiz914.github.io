@@ -3,8 +3,8 @@ filename = "xlpackets-1.18.2-2.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f24208aa29e04b26366589061806d07d77d30034"
+hash-format = "sha256"
+hash = "0df95f1cbb246435160b5767171d4a7cb690d044f0c436a1d406ad46a844114d"
 mode = "metadata:curseforge"
 
 [update]

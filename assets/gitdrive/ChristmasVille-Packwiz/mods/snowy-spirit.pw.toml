@@ -3,8 +3,8 @@ filename = "snowyspirit-1.20-2.2.6.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "9700acbed5ea7c7c8312db353e6c1cbad1a6d4ec"
+hash-format = "sha256"
+hash = "150923fa8a97bddff4a6fe9a14392e85afdafa2acab5a8caf181a737006d4f08"
 mode = "metadata:curseforge"
 
 [update]

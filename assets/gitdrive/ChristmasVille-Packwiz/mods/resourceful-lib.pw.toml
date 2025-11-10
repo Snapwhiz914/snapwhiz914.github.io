@@ -3,8 +3,8 @@ filename = "resourcefullib-forge-1.20.1-2.1.19.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "a2992b9c1f45f2aea28821570080f76f6707c2db"
+hash-format = "sha256"
+hash = "98188f4fc8c79d1632c4626eea3e2a4c43f339f131bc1c7b2cd90ef9f9e4e51c"
 mode = "metadata:curseforge"
 
 [update]

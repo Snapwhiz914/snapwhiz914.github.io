@@ -3,8 +3,8 @@ filename = "create-confectionery1.20.1_v1.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "75b39587e643a2af31e5d0db822a94aaa5d13f08"
+hash-format = "sha256"
+hash = "a30a1e4d31e329e354ace5dbf1173c587d98f9a1aa56fddc065c9a7fc6bf79fe"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "Pehkui-3.7.11+1.20.1-forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d09de4091d1de4161bbbebbf76c41c68ed083e86"
+hash-format = "sha256"
+hash = "0c99b33c4af8dadd6e1ee8bbda68bc7fdd80437ad186f101d66d80a404e8cb38"
 mode = "metadata:curseforge"
 
 [update]

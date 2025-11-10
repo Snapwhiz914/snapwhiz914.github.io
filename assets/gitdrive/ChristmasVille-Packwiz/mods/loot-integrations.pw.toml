@@ -3,8 +3,8 @@ filename = "lootintegrations-1.20.1-3.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b400308fb52523f02dc581a4cc22f9753f9fb1b5"
+hash-format = "sha256"
+hash = "442662f7091018791a0cd243086ddbeb5e8742bafbd9de73b483f62ff27ce9f9"
 mode = "metadata:curseforge"
 
 [update]

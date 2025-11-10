@@ -3,8 +3,8 @@ filename = "experienceobelisk-v1.4.10-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "211e0052e0970615be43ac3c3fa3b4304a8d16a9"
+hash-format = "sha256"
+hash = "d61c6366ec8af7a0495bb44b400d2399c6390c08926595f59ce209d9b8a05d90"
 mode = "metadata:curseforge"
 
 [update]

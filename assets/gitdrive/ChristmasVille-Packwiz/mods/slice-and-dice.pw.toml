@@ -3,8 +3,8 @@ filename = "sliceanddice-forge-3.2.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "f964b626e90acb7145113c342eb915c5df834778"
+hash-format = "sha256"
+hash = "54d542cd0e0f945a6b1312b845790560023f07a08d5f6971361013aa76ad8ff8"
 mode = "metadata:curseforge"
 
 [update]

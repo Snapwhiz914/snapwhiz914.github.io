@@ -3,8 +3,8 @@ filename = "YungsBetterEndIsland-1.20-Forge-2.0.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "af2700fc1406b8118c6908894c8a43570c480b1d"
+hash-format = "sha256"
+hash = "ff035a7425b8add628cbd6941674cdf4480d6ce59906005fb9cd548757a51e9f"
 mode = "metadata:curseforge"
 
 [update]

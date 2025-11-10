@@ -3,8 +3,8 @@ filename = "trade-cycling-forge-1.20.1-1.0.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "b22b1bfb4381dd8f758b4e2878842c073683ca9d"
+hash-format = "sha256"
+hash = "9b056e0e9cbf470383ee1d38e9e839fdef5511b5487d985e1ce92f8c34ab6288"
 mode = "metadata:curseforge"
 
 [update]

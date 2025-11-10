@@ -3,8 +3,8 @@ filename = "3dplaceablefood -1.5.0 1.20.1 forge.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "03f16657e3793615511b62189d9e43f4990c35fd"
+hash-format = "sha256"
+hash = "7f88ffde02a342c676d33593df7c549e6b9fca20f5bb45b6155cd9fc6aa66099"
 mode = "metadata:curseforge"
 
 [update]

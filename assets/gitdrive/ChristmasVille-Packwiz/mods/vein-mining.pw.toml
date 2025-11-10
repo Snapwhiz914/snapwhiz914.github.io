@@ -3,8 +3,8 @@ filename = "veinmining-forge-1.2.1+1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "45d3999ab882f40595c04e2afc872dbc7ab08ea7"
+hash-format = "sha256"
+hash = "098b492bca0b67a1b207a171fcea847fb303af93e5293fe61c8bb9ffdd4b9a7b"
 mode = "metadata:curseforge"
 
 [update]

@@ -3,8 +3,8 @@ filename = "MOAdecor ART 1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7366648d7c9e78eb3823b692293dea59469dc10f"
+hash-format = "sha256"
+hash = "45857f3268e4ecaaebff55e58a98f3dd79240d04b61eb547a182f9a2c2ce93c2"
 mode = "metadata:curseforge"
 
 [update]

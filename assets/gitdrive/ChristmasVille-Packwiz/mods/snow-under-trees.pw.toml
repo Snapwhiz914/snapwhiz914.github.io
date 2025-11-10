@@ -3,8 +3,8 @@ filename = "snowundertrees-1.20.1-1.4.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "538ebe01496ab5398ecd3d3b467b8aae437bae20"
+hash-format = "sha256"
+hash = "d5532dab1a542eba157c8c0fe3a9bfb25126eccb958482b9a1644c4131644d6f"
 mode = "metadata:curseforge"
 
 [update]

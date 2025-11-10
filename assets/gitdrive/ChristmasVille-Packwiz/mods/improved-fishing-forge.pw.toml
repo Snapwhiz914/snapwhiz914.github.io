@@ -3,8 +3,8 @@ filename = "improvedfishing-1.0-1.20-1.20.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "d5edee0d63b64e9b5a09707ddb5991f299205c9d"
+hash-format = "sha256"
+hash = "8d8926fbdf9c14bd43eff789927f2f0dcacff8fe585e4483322f1631a19b58f6"
 mode = "metadata:curseforge"
 
 [update]

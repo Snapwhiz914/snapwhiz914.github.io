@@ -3,8 +3,8 @@ filename = "TravelersTitles-1.20-Forge-4.0.1.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0d3d9746fb2a78542095e93ebff0dc14dae56e53"
+hash-format = "sha256"
+hash = "adf521b851e5c384d0bdc854c0b71b2019ab14486fb721662dc53f394d4d4452"
 mode = "metadata:curseforge"
 
 [update]

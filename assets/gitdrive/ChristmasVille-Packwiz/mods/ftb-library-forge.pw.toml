@@ -3,8 +3,8 @@ filename = "ftb-library-forge-2001.1.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "de7fd22d2fd5e5cd5e6060c487df8f97c33933f2"
+hash-format = "sha256"
+hash = "61881545e0b8eb997acfe0f4778de630fd0e1bd82832f74b341adf12ea9cc79f"
 mode = "metadata:curseforge"
 
 [update]

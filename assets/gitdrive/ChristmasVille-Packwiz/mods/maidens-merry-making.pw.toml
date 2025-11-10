@@ -3,8 +3,8 @@ filename = "maidensmerrymaking-1.20.1-4.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "86ce22b038462feb10d2cbfcbc489e2035da02d2"
+hash-format = "sha256"
+hash = "c3d37edda54756973164adb8907ee57ef899f4b564eb909f8e121f6b78373152"
 mode = "metadata:curseforge"
 
 [update]

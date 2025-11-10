@@ -3,8 +3,8 @@ filename = "rare-ice-0.6.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "555c07b60c7edd424f0af61dce4752dbb8f51c29"
+hash-format = "sha256"
+hash = "b16d5d58515ce2e3c007267b0893701c67d0e7d2e3ca5259b867f0d975ce15bb"
 mode = "metadata:curseforge"
 
 [update]

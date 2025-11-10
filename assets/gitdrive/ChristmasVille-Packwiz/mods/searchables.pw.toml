@@ -3,8 +3,8 @@ filename = "Searchables-forge-1.20.1-1.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "15548b2b50b700c0ffe2b9c4de80dfe510db208d"
+hash-format = "sha256"
+hash = "dfab5b71552e8e702bb01360f5e8d1a6d714cf6881a30cb7072184a144c2b1e2"
 mode = "metadata:curseforge"
 
 [update]

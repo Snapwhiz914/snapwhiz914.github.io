@@ -3,8 +3,8 @@ filename = "Sweaters-1.20.1-0.1.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "aaa4e890e4fcb22579081fa315529a5c544ef1f9"
+hash-format = "sha256"
+hash = "47696d921cf7423c46c15a8fbaa367174700a74130b1f7036efc19f899d5a445"
 mode = "metadata:curseforge"
 
 [update]

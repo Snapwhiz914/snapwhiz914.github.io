@@ -3,8 +3,8 @@ filename = "relics-1.20.1-0.5.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "851038a27824c548d40b9d9cf85c89e005d655d7"
+hash-format = "sha256"
+hash = "da7a6a43e262ba7d54424aa89479a484ce1dc729cc33e87a886ddcf156350efe"
 mode = "metadata:curseforge"
 
 [update]

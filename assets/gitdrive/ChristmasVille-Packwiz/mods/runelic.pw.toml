@@ -3,8 +3,8 @@ filename = "Runelic-Forge-1.20.1-18.0.2.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "3b8cc4657cf9f0e321834b1726e358b58a1ea3c4"
+hash-format = "sha256"
+hash = "ae24744fbb329e72713c15308f54295dee03515f95b5bd615e0945edf5b5111d"
 mode = "metadata:curseforge"
 
 [update]
