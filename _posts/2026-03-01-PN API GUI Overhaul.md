@@ -18,7 +18,9 @@ This post will be a presentation of the new website as well as new features.
 
 The frontend is now a single page react app. I chose to have Copilot use this because I know OpenAI's ChatGPT uses this frontend stack and I like the style.
 
+### Login
 ![Login](/assets/images/2026-03-01-PN-API-GUI-Overhaul/new-login-small.png)
+### Home
 ![Home](/assets/images/2026-03-01-PN-API-GUI-Overhaul/home.png)
 
 There is no option for a light theme and I would have to be well convinced to add one - the Mantine dark theme looks very sleek and serious in my opinion. I did briefly consider changing the theme of this blog to match it, but the blueish dark background that I have now has a little bit more character.
@@ -29,7 +31,9 @@ The navigation being a set of buttons to the right of the page title is definite
 
 What once was one page with a leaflet map and busy-looking filtering options is now a sleek, react frontend (still using leaflet) with better looking filters.
 
+### Before
 ![Old one-page website](/assets/images/2024-08-12-PN-API/Screenshot.png)
+### After
 ![New website](/assets/images/2026-03-01-PN-API-GUI-Overhaul/new-map.png)
 
 As crammed as they may have been, I do like having all of the filtering features in one row at the top of the screen. The new layout has lots of padding between filter controls (and within them) which I will likely end up changing.
