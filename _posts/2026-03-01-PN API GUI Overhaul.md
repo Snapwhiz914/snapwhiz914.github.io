@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "GUI Overhaul for PN-API"
-date:   2024-03-01 12:00:00 -0400
+date:   2026-03-18 12:00:00 -0400
 author: Snapwhiz914
 tags: proxy website fastapi
 ---
