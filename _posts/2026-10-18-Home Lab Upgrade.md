@@ -73,8 +73,10 @@ I had planned for each supporter to be long enough to slide into the rack withou
 
 I designed a small attachment to the supporters that provided a platform to slide into the rail with more contact.
 
-![attachment in cad](/assets/images/2026-10-18-Home-Lab-Upgrade/attachment-in-cad.JPG)
+![](/assets/images/2026-10-18-Home-Lab-Upgrade/attachment-in-cad.JPG)
 ![attachment on supporter](/assets/images/2026-10-18-Home-Lab-Upgrade/attachment-on-supporter.JPG)
+
+*The cat pictured is our neighbor's cat (the same neighbors who gave me their managed switch). He likes to come to our house and sleep.*
 
 ## Server troubles
 
